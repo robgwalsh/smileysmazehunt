@@ -1,0 +1,2786 @@
+;***********************
+;******** FONTS ********
+;***********************
+Texture UserInterfaceTx {
+ filename="Graphics/UserInterface.png"
+}
+Font curlz {
+ filename="curlz.fnt"
+ tracking=1.0
+}
+Font description {
+ filename="description.fnt"
+ tracking=1.0
+}
+Font titleFnt {
+ filename="titleFnt.fnt"
+ tracking=1.0
+}
+Font controls {
+ filename="controls.fnt"
+ tracking=1.0
+}
+Font consoleFnt {
+ filename="consoleFnt.fnt"
+ tracking=1.0
+}
+Font inventoryFnt {
+ filename="inventory.fnt"
+ tracking=1.0
+}
+Font numberFnt {
+ filename="number.fnt"
+ tracking=1.0
+}
+Font button {
+ filename="buttons.fnt"
+ tracking=1.0
+ color=#000000
+}
+Font bigLoadFnt {
+ filename="loadmenu1.fnt"
+ tracking=1.0
+ color=#000000
+}
+Font textBoxFnt {
+ filename="textbox.fnt"
+ tracking=1.0
+ color=#000000
+}
+Font textBoxNameFnt {
+ filename="textboxname.fnt"
+ tracking=1.0
+ color=#000000
+}
+Font textBoxDialogFnt {
+ filename="textboxdialog.fnt"
+ tracking=1.0
+ color=#000000
+}
+Font newAreaFnt {
+ filename="zone.fnt"
+ tracking=1.0
+ color=#000000
+}
+
+;***************************
+;******** PARTICLES ********
+;***************************
+Texture particlesTx {
+ filename="Graphics/particles.png"
+}
+Sprite particleGraphic1 {
+ texture=particlesTx
+ rect=0,0,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+Sprite particleGraphic2 {
+ texture=particlesTx
+ rect=32,0,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+Sprite particleGraphic3 {
+ texture=particlesTx
+ rect=64,0,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+Sprite particleGraphic4 {
+ texture=particlesTx
+ rect=96,0,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+Sprite particleGraphic5 {
+ texture=particlesTx
+ rect=0,32,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+Sprite particleGraphic8 {
+ texture=particlesTx
+ rect=96,32,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+Sprite particleGraphic11 {
+ texture=particlesTx
+ rect=64,64,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+Sprite particleGraphic13 {
+ texture=particlesTx
+ rect=0,96,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+Sprite bloodSplatGraphic {
+ texture=particlesTx
+ rect=0,96,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite shockwaveGraphic {
+ texture=particlesTx
+ rect=0,96,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Particle enemyBlockCloud {
+ filename=particle1.psi
+ sprite=particleGraphic13
+}
+Particle sandCloud {
+ filename=sandcloud.psi
+ sprite=particleGraphic1
+}
+Particle iceNova {
+ filename=icenova.psi
+ sprite=particleGraphic13
+}
+Particle calypsoIceNova {
+ filename=calypsoicenova.psi
+ sprite=particleGraphic13
+}
+Particle treeletSpawn {
+ filename=treelet.psi
+ sprite=particleGraphic13
+}
+Particle penguinSplash {
+ filename=penguinSplash.psi
+ sprite=particleGraphic3
+}
+Particle bloodSplat {
+ filename=bloodsplat.psi
+ sprite=bloodSplatGraphic
+}
+Particle bombFuse {
+ filename=bombfuse.psi
+ sprite=particleGraphic2
+}
+Particle explosion {
+ filename=explosion.psi
+ sprite=particleGraphic11
+}
+Particle deathCloud {
+ filename=deathCloud.psi
+ sprite=particleGraphic1
+}
+Particle fireBall {
+ filename=fireball.psi
+ sprite=particleGraphic1
+}
+Particle fountain {
+ filename=fountain.psi
+ sprite=particleGraphic2
+}
+Particle iceOrb {
+ filename=iceorb.psi
+ sprite=particleGraphic2
+}
+Particle fireOrb {
+ filename=fireorb.psi
+ sprite=particleGraphic2
+}
+Particle smileysCane {
+ filename=smileysCane.psi
+ sprite=particleGraphic5
+}
+Particle flame {
+ filename=flame.psi
+ sprite=particleGraphic13
+}
+Particle shockwave {
+ filename=shockwave.psi
+ sprite=shockwaveGraphic
+}
+Particle tutLightning {
+ filename=lightningpart.psi
+ sprite=particleGraphic8
+}
+Particle itemParticle {
+ filename=item.psi
+ sprite=particleGraphic3
+}
+Particle slimeParticle {
+ filename=slime.psi
+ sprite=shockwaveGraphic
+}
+Particle bigFireball {
+ filename=bigFireball.psi
+ sprite=particleGraphic13
+}
+Particle bigWhiteBarv {
+ filename=barv.psi
+ sprite=particleGraphic1
+}
+Particle smallYellowBarv {
+ filename=barvFloatEyeBeam.psi
+ sprite=particleGraphic1
+}
+Particle skullProjectileParticle {
+ filename=skullproj.psi
+ sprite=particleGraphic11
+}
+
+;********************************************
+;************* FENWAR ENCOUNTER  ************
+;********************************************
+Animation fenwar {
+ texture=general
+ rect=401,385,62,73
+ frames=6
+ fps=10.0
+ mode=FORWARD,LOOP
+ hotspot=31,36
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite fenwarSpr {
+ texture=general
+ rect=129,581,62,73
+ hotspot=32,36
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation fenwarFace {
+ texture=general
+ rect=491,461,50,48
+ frames=3
+ fps=4.0
+ mode=FORWARD,NOLOOP
+ hotspot=25,24
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Particle fenwarwarp {
+ filename=fenwarwarp.psi
+ sprite=particleGraphic13
+}
+
+;********************************************
+;**************** FENWAR BOSS ***************
+;********************************************
+Sprite fenwarOrb {
+ texture=general
+ rect=386,130,60,60
+ hotspot=30,30
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite fenwarBullet {
+ texture=general
+ rect=356,196,22,22
+ hotspot=11,11
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite fenwarBulletRed {
+ texture=general
+ rect=356,218,22,22
+ hotspot=11,11
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite fenwarBomb {
+ texture=general
+ rect=390,200,36,48
+ hotspot=18,24
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;*********************
+;******** LOOT *******
+;*********************
+Sprite manaLoot {
+ texture=general
+ rect=0,160,30,30
+ hotspot=15,15
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite healthLoot {
+ texture=general
+ rect=32,160,30,30
+ hotspot=15,15
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite newAbilityLoot {
+ texture=general
+ rect=0,192,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;***********************
+;******** MUSIC ********
+;***********************
+Music menuMusic {
+ filename="menu.xm"
+ amplify=50
+}
+Music deathMusic {
+ filename="DeathScreen.xm"
+ amplify=50
+}
+Music townMusic {
+ filename="town.xm"
+ amplify=60
+}
+Music bossMusic {
+ filename="fireboss.xm"
+ amplify=30
+}
+Music forestMusic {
+ filename="forest.xm"
+ amplify=60
+}
+Music iceMusic {
+ filename="ice.xm"
+ amplify=50
+}
+Music serpentinePathMusic {
+ filename="serpentinePath.xm"
+ amplify=50
+}
+Music oldeTowneMusic {
+ filename="oldetowne.xm"
+ amplify=60
+}
+Music smolderHollowMusic {
+ filename="smolderhollow.xm"
+ amplify=50
+}
+Music realmOfDespairMusic {
+ filename="despair.xm"
+ amplify=50
+}
+Music hintMusic {
+ filename="hint.xm"
+ amplify=90
+}
+Music kingTutMusic {
+ filename="kingtut.mod"
+ amplify=50
+}
+Music castleOfEvilMusic {
+ filename="castleOfEvil.mod"
+ amplify=50
+}
+Music conservatoryMusic {
+ filename="Conservatory.xm"
+ amplify=50
+}
+Music creditsMusic {
+ filename="credits.mod"
+ amplify=50
+}
+Music fenwarLietmotif {
+ filename="fenwarlietmotif.mod"
+ amplify=50
+ resgroup=110
+}
+
+;**********************************************
+;******** WORLD MAP (Resource group 13) *******
+;**********************************************
+Texture WorldMapTx {
+ filename="Graphics/WorldMap.png"
+}
+Texture WorldMapBordersTx {
+ filename="Graphics/WorldMapBorders.png"
+}
+Sprite SessariaMap {
+ texture=WorldMapTx
+ rect=0,0,243,121
+ hotspot=121,60
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite SalabiaMap {
+ texture=WorldMapTx
+ rect=245,0,153,123
+ hotspot=76,61
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite FundoriaMap {
+ texture=WorldMapTx
+ rect=0,123,168,198
+ hotspot=84,99
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite DespairMap {
+ texture=WorldMapTx
+ rect=169,124,148,147
+ hotspot=74,73
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite PathMap {
+ texture=WorldMapTx
+ rect=320,125,108,96
+ hotspot=54,48
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite CastleMap {
+ texture=WorldMapTx
+ rect=320,223,107,81
+ hotspot=53,40
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite FountainMap {
+ texture=WorldMapTx
+ rect=170,273,128,70
+ hotspot=64,35
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite TutMap {
+ texture=WorldMapTx
+ rect=1,322,99,74
+ hotspot=50,37
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite ConservatoryMap {
+ texture=WorldMapTx
+ rect=112,333,49,52
+ hotspot=25,26
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite SmolderMap {
+ texture=WorldMapTx
+ rect=1,397,120,112
+ hotspot=60,56
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+
+Sprite SessariaMapBorder {
+ texture=WorldMapBordersTx
+ rect=0,0,252,130
+ hotspot=126,65
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite SalabiaMapBorder {
+ texture=WorldMapBordersTx
+ rect=253,0,161,132
+ hotspot=80,66
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite FundoriaMapBorder {
+ texture=WorldMapBordersTx
+ rect=1,131,177,206
+ hotspot=88,103
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite DespairMapBorder {
+ texture=WorldMapBordersTx
+ rect=179,133,156,155
+ hotspot=78,72
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite PathMapBorder {
+ texture=WorldMapBordersTx
+ rect=336,133,119,104
+ hotspot=59,52
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite ConservatoryMapBorder {
+ texture=WorldMapBordersTx
+ rect=415,1,57,60
+ hotspot=28,30
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite FountainMapBorder {
+ texture=WorldMapBordersTx
+ rect=179,289,136,78
+ hotspot=68,37
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite CastleMapBorder {
+ texture=WorldMapBordersTx
+ rect=336,238,116,89
+ hotspot=58,44
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite SmolderMapBorder {
+ texture=WorldMapBordersTx
+ rect=1,338,128,121
+ hotspot=64,60
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite TutMapBorder {
+ texture=WorldMapBordersTx
+ rect=130,368,107,82
+ hotspot=53,41
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+Sprite WorldMapBackgroundTile {
+ texture=WorldMapTx
+ rect=175,352,128,128
+ hotspot=53,41
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=13
+}
+
+;**********************************************
+;******** FOUNTAIN (Resource group 69) ********
+;**********************************************
+Animation fountainRipple {
+ texture="Graphics/fountain.png"
+ rect=0,0,338,95
+ frames=10
+ fps=10.0
+ mode=FORWARD,LOOP
+ hotspot=169,47.5
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=69
+}
+Sprite fountainBottom {
+ texture="Graphics/fountain.png"
+ rect=0,380,340,172
+ hotspot=170,120
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=69
+}
+Sprite fountainTop {
+ texture="Graphics/fountain.png"
+ rect=340,380,118,173
+ hotspot=59,120
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=69
+}
+
+;********************************
+;******** TEXTBOX / SHOP ********
+;********************************
+Sprite textBox {
+ texture=general
+ rect=0,256,400,250
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite arrowIcon {
+ texture=general
+ rect=128,142,32,20
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite okIcon {
+ texture=general
+ rect=160,142,32,20
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite exitIcon {
+ texture=general
+ rect=206,64,40,40
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Texture psychedelicTx {
+ filename="Graphics/psychedelic.png"
+}
+
+;****************************
+;******** ANIMATIONS ********
+;****************************
+Texture animations {
+ filename="Graphics/animations.png"
+}
+Animation water {
+ texture=animations
+ rect=0,0,64,64
+ frames=16
+ fps=16.0
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation greenWater {
+ texture=animations
+ rect=0,640,64,64
+ frames=16
+ fps=16.0
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation lava {
+ texture=animations
+ rect=0,128,64,64
+ frames=10
+ fps=10.0
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation spring {
+ texture=animations
+ rect=0,64,64,64
+ frames=7
+ fps=14.0
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation superSpring {
+ texture=animations
+ rect=0,704,64,64
+ frames=7
+ fps=14.0
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation silverSwitch {
+ texture=animations
+ rect=320,192,64,64
+ frames=5
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation brownSwitch {
+ texture=animations
+ rect=320,256,64,64
+ frames=5
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation blueSwitch {
+ texture=animations
+ rect=320,320,64,64
+ frames=5
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation greenSwitch {
+ texture=animations
+ rect=320,384,64,64
+ frames=5
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation yellowSwitch {
+ texture=animations
+ rect=320,448,64,64
+ frames=5
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation whiteSwitch {
+ texture=animations
+ rect=320,512,64,64
+ frames=5
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation savePoint {
+ texture=animations
+ rect=0,576,64,64
+ frames=16
+ fps=16.0
+ mode=FORWARD,LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation smileletGfx {
+ texture=general
+ rect=128,193,28,26
+ frames=8
+ mode=FORWARD,LOOP
+ hotspot=14,13
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation mirrorSwitch {
+ texture=animations
+ rect=640,512,64,64
+ frames=5
+ fps=20.0
+ mode=FORWARD,PINGPONG
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation shrinkTunnelSwitch {
+ texture=animations
+ rect=448,704,64,64
+ frames=5
+ fps=20.0
+ mode=FORWARD,PINGPONG
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation bunnySwitch {
+ texture=animations
+ rect=768,704,64,64
+ frames=4
+ fps=16.0
+ mode=FORWARD,PINGPONG
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;***********************
+;******** COMMON *******
+;***********************
+Sprite mouseCursor {
+ texture=general
+ rect=96,96,32,32
+ hotspot=1,1
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite sillyPad {
+ texture=general
+ rect=576,0,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite blueSquare {
+ texture=general
+ rect=832,64,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite blackSquare {
+ texture=general
+ rect=896,64,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite redSquare {
+ texture=general
+ rect=960,64,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite yellowSquare {
+ texture=general
+ rect=832,128,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite whiteSquare {
+ texture=general
+ rect=320,128,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite hugeTongue {
+ texture=general
+ rect=21,660,524,227
+ hotspot=0,113
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite stretchableBlackSquare {
+ texture=general
+ rect=897,65,62,62
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite reflectionShield {
+ texture=general
+ rect=0,64,96,96
+ hotspot=48,48
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite iceBlock {
+ texture=general
+ rect=128,0,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite loading {
+ texture=general
+ rect=623,623,400,400
+ hotspot=200,200
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite billClinton {
+ texture=npcTx
+ rect=0,512,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite adviceManUp {
+ texture=npcTx
+ rect=192,834,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite adviceManLeft {
+ texture=npcTx
+ rect=64,834,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite adviceManDown {
+ texture=npcTx
+ rect=0,834,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite parallaxPit {
+ texture=general
+ rect=960,0,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation abilities {
+ texture=general
+ rect=192,0,64,64
+ frames=16
+ fps=0.0
+ mode=LOOP
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;*****************************************
+;************ USER INTERFACE *************
+;*****************************************
+Sprite adviceBackground {
+ texture=UserInterfaceTx
+ rect=692,396,130,30
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+
+;*****************************************
+;******** MENU (Resource Group 10) *******
+;*****************************************
+Texture menuBackgroundTx {
+ filename="Graphics/titlescreen.png"
+ resgroup=10
+}
+Sprite menuBackground {
+ texture=menuBackgroundTx
+ rect=0,0,1024,768
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite menuSpeechBubble {
+ texture=menuBackgroundTx
+ rect=0,769,245,73
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite buttonBackground {
+ texture=UserInterfaceTx
+ rect=661,22,246,71
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite buttonBackgroundHighlighted {
+ texture=UserInterfaceTx
+ rect=661,93,246,71
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite smileyTitle {
+ texture=menuBackgroundTx
+ rect=380,769,430,214
+ hotspot=215,104
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite loadingText {
+ texture=menuBackgroundTx
+ rect=1,844,334,88
+ hotspot=168,45
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite gameOverG {
+ texture=menuBackgroundTx
+ rect=811,769,48,58
+ hotspot=170,24
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite gameOverA {
+ texture=menuBackgroundTx
+ rect=863,769,48,63
+ hotspot=127,30
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite gameOverM {
+ texture=menuBackgroundTx
+ rect=913,769,52,68
+ hotspot=88,36
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite gameOverE1 {
+ texture=menuBackgroundTx
+ rect=967,769,35,69
+ hotspot=38,37
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite gameOverO {
+ texture=menuBackgroundTx
+ rect=811,833,41,72
+ hotspot=-17,37
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite gameOverV {
+ texture=menuBackgroundTx
+ rect=852,833,45,69
+ hotspot=-54,35
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite gameOverE2 {
+ texture=menuBackgroundTx
+ rect=897,838,46,64
+ hotspot=-87,29
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite gameOverR {
+ texture=menuBackgroundTx
+ rect=943,839,53,59
+ hotspot=-117,23
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite gameOverText {
+ texture=menuBackgroundTx
+ rect=0,934,340,74
+ hotspot=170,37
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite controlsBox {
+ texture=menuBackgroundTx
+ rect=248,769,130,30
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite selectedControlsBox {
+ texture=menuBackgroundTx
+ rect=248,799,130,30
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite difficultyPromptBackground {
+ texture=UserInterfaceTx
+ rect=661,809,325,150
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite leftArrow {
+ texture=UserInterfaceTx
+ rect=989,810,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite rightArrow {
+ texture=UserInterfaceTx
+ rect=989,844,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite okButton {
+ texture=UserInterfaceTx
+ rect=989,878,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite leftArrowHighlighted {
+ texture=UserInterfaceTx
+ rect=989,912,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite rightArrowHighlighted {
+ texture=UserInterfaceTx
+ rect=989,946,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite okButtonHighlighted {
+ texture=UserInterfaceTx
+ rect=989,980,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=10
+}
+Sprite smileyWithoutHat {
+ texture=general
+ rect=3,590,53,42
+ hotspot=26,21
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite smileysHat {
+ texture=general
+ rect=71,594,51,34
+ hotspot=25,17
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;********************************************
+;******** CREDITS (Resource Group 11) *******
+;********************************************
+Texture creditsPhyrebawzTx {
+ filename="Graphics/fireboss.png"
+ resgroup=11
+}
+Sprite creditsPhyrebawz {
+ texture=creditsPhyrebawzTx
+ rect=0,0,97,157
+ hotspot=46,79
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=11
+}
+Texture creditsPortlyPenguinTx {
+ filename="Graphics/penguin.png"
+ resgroup=11
+}
+Sprite creditsPortlyPenguin {
+ texture=creditsPortlyPenguinTx
+ rect=0,0,128,128
+ hotspot=64,64
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=11
+}
+Texture creditsGarmbornTx {
+ filename="Graphics/garmborn.png"
+ resgroup=11
+}
+Sprite creditsGarmborn {
+ texture=creditsGarmbornTx
+ rect=16,0,163,190
+ hotspot=81,95
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=11
+}
+Texture creditsCornwallisTx {
+ filename="Graphics/cornwallis.png"
+ resgroup=11
+}
+Sprite creditsCornwallis {
+ texture=creditsCornwallisTx
+ rect=0,0,108,158
+ hotspot=54,78
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=11
+}
+Texture creditsCalypsoTx {
+ filename="Graphics/calypso.png"
+ resgroup=11
+}
+Sprite creditsCalypso {
+ texture=creditsCalypsoTx
+ rect=0,1,160,159
+ hotspot=80,80
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=11
+}
+Texture creditsBrianFungusTx {
+ filename="Graphics/brian.png"
+ resgroup=11
+}
+Sprite creditsBrianFungus {
+ texture=creditsBrianFungusTx
+ rect=0,0,115,105
+ hotspot=57,52
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=11
+}
+Texture creditsBartliTx {
+ filename="Graphics/bartli.png"
+ resgroup=11
+}
+Sprite creditsBartli {
+ texture=creditsBartliTx
+ rect=0,0,110,134
+ hotspot=55,67
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=11
+}
+Sprite creditsBartliArm {
+ texture=creditsBartliTx
+ rect=31,147,40,15
+ hotspot=39,7
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=106
+}
+Sprite creditsBartliLeg {
+ texture=creditsBartliTx
+ rect=5,143,17,26
+ hotspot=8,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=106
+}
+Texture creditsTutTx {
+ filename="Graphics/tut.png"
+ resgroup=11
+}
+Sprite creditsTut {
+ texture=creditsTutTx
+ rect=0,0,67,226
+ hotspot=34,113
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=11
+}
+Texture creditsLovecraftTx {
+ filename="Graphics/Lovecraft.png"
+ resgroup=11
+}
+Sprite creditsLovecraft {
+ texture=creditsLovecraftTx
+ rect=0,1,192,190
+ hotspot=96,96
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=11
+}
+Texture creditsBarvinoidTx {
+ filename="Graphics/Barvinoid.png"
+ resgroup=11
+}
+Sprite creditsBarvinoid {
+ texture=creditsBarvinoidTx
+ rect=0,1,283,353
+ hotspot=141,176
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=11
+}
+
+;*****************************************
+;***** CINEMATIC (Resource Group 12) *****
+;*****************************************
+Texture cinematicTx {
+ filename="Graphics/Cinematic.png"
+ resgroup=12
+}
+Sprite sceneOne {
+ texture=cinematicTx
+ rect=0,0,440,340
+ hotspot=220,170
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=12
+}
+Sprite sceneTwo {
+ texture=cinematicTx
+ rect=440,0,440,340
+ hotspot=220,170
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=12
+}
+Sprite sceneThree {
+ texture=cinematicTx
+ rect=0,340,440,340
+ hotspot=220,170
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=12
+}
+Sprite sceneFour {
+ texture=cinematicTx
+ rect=0,680,440,340
+ hotspot=220,215
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=12
+}
+Sprite sceneFive {
+ texture=cinematicTx
+ rect=440,340,440,400
+ hotspot=220,200
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=12
+}
+Sprite sceneSix {
+ texture=cinematicTx
+ rect=440,740,182,182
+ hotspot=91,91
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=12
+}
+Music SceneOneSong {
+ filename="SceneOneMusic.xm"
+ amplify=50
+ resgroup=12
+}
+
+;*******************************
+;******** OPTIONS WINDOW *******
+;********************************
+Sprite optionsBackground {
+ texture=UserInterfaceTx
+ rect=0,0,660,492
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite sliderBar {
+ texture=UserInterfaceTx
+ rect=660,0,93,21
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite optionsPatch {
+ texture=UserInterfaceTx
+ rect=30,30,286,246
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;*************************
+;******** MINI MAP *******
+;*************************
+Sprite mapFogOfWarLeft {
+ texture=general
+ rect=384,64,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite mapFogOfWarRight {
+ texture=general
+ rect=448,64,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite mapFogOfWarUp {
+ texture=general
+ rect=512,64,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite mapFogOfWarDown {
+ texture=general
+ rect=576,64,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite mapFogOfWarUpLeft {
+ texture=general
+ rect=640,64,32,32
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite mapFogOfWarUpRight {
+ texture=general
+ rect=672,64,32,32
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite mapFogOfWarDownRight {
+ texture=general
+ rect=672,96,32,32
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite mapFogOfWarDownLeft {
+ texture=general
+ rect=640,96,32,32
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite topBorder {
+ texture=UserInterfaceTx
+ rect=0,0,660,30
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite leftBorder {
+ texture=UserInterfaceTx
+ rect=0,30,30,432
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite rightBorder {
+ texture=UserInterfaceTx
+ rect=630,30,30,432
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite bottomBorder {
+ texture=UserInterfaceTx
+ rect=0,462,660,30
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+Sprite miniMapNoCollision {
+ texture=general
+ rect=704,64,16,16
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite miniMapCollision {
+ texture=general
+ rect=768,64,16,16
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite miniMapBlueSquare {
+ texture=general
+ rect=832,64,16,16
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite miniMapBlackSquare {
+ texture=general
+ rect=896,64,16,16
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite miniMapRedSquare {
+ texture=general
+ rect=960,64,16,16
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;********************
+;******** GUI *******
+;********************
+Sprite abilityBackground {
+ texture=UserInterfaceTx
+ rect=661,427,240,80
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite abilityCooldownCircle {
+ texture=UserInterfaceTx
+ rect=735,574,80,80
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite manabarBackgroundLeftTip {
+ texture=UserInterfaceTx
+ rect=661,282,6,22
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite manabarBackgroundRightTip {
+ texture=UserInterfaceTx
+ rect=668,282,6,22
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite manabarBackgroundCenter {
+ texture=UserInterfaceTx
+ rect=675,282,349,22
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite manaBar {
+ texture=UserInterfaceTx
+ rect=661,304,360,16
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite moneyIcon {
+ texture=UserInterfaceTx
+ rect=746,196,48,48
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite emptyHealth {
+ texture=UserInterfaceTx
+ rect=661,166,30,30
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite quarterHealth {
+ texture=UserInterfaceTx
+ rect=691,166,30,30
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite halfHealth {
+ texture=UserInterfaceTx
+ rect=721,166,30,30
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite threeQuartersHealth {
+ texture=UserInterfaceTx
+ rect=751,166,30,30
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite fullHealth {
+ texture=UserInterfaceTx
+ rect=781,166,30,30
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite bossHealthBackground {
+ texture=UserInterfaceTx
+ rect=661,320,256,43
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite bossHealthBar {
+ texture=UserInterfaceTx
+ rect=661,363,230,32
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite keyBackground {
+ texture=UserInterfaceTx
+ rect=742,751,276,54
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite inventoryRightArrow {
+ texture=UserInterfaceTx
+ rect=735,508,109,65
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;***********************
+;******** PLAYER *******
+;***********************
+Sprite playerShadow {
+ texture=general
+ rect=128,162,64,15
+ hotspot=32,7
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation player {
+ texture=general
+ rect=1,507,61,72
+ frames=8
+ fps=0.0
+ mode=LOOP
+ hotspot=31,48
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation smileyTongue {
+ texture=animations
+ rect=640,427,12,85
+ frames=13
+ fps=118.0
+ mode=LOOP
+ hotspot=6,84
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite smileysFace {
+ texture=general
+ rect=0,506,61,72
+ hotspot=30,36
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite jesusBeam {
+ texture=general
+ rect=960,201,62,421
+ hotspot=30,387
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;**************************
+;******** INVENTORY *******
+;**************************
+Sprite inventoryCursor {
+ texture=general
+ rect=129,65,76,76
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite inventory {
+ texture=UserInterfaceTx
+ rect=0,492,660,492
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite selectedAbilityCheck {
+ texture=general
+ rect=209,106,20,20
+ hotspot=10,10
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite selectedKeys {
+ texture=UserInterfaceTx
+  rect=661,559,73,249
+  hotspot=0,0
+  blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation levelIcons {
+ texture=UserInterfaceTx
+ rect=0,984,40,40
+ frames=5
+ fps=20.0
+ mode=LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation keyIcons {
+ texture=UserInterfaceTx
+ rect=200,984,40,40
+ frames=5
+ fps=20.0
+ mode=LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation upgradeIcons {
+ texture=UserInterfaceTx
+ rect=360,984,40,40
+ frames=3
+ fps=20.0
+ mode=LOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation adviceIcons {
+ texture=UserInterfaceTx
+ rect=480,984,40,40
+ frames=8
+ fps=20.0
+ mode=LOOP
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite windowArrowLeft {
+ texture=UserInterfaceTx
+ rect=917,3,17,104
+ hotspot=9,52
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite windowArrowRight {
+ texture=UserInterfaceTx
+ rect=938,3,17,104
+ hotspot=9,52
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;***********************
+;******** SOUNDS *******
+;***********************
+Sound snd_FenwarSlurp {
+ filename="FenwarSlurp.mp3"
+ resgroup=14
+}
+Sound snd_RumbleLoop {
+ filename="RumbleLoop.mp3"
+ resgroup=14
+}
+Sound snd_SlimeSplat {
+ filename="SlimeSplat.mp3"
+ resgroup=14
+}
+Sound snd_TentaclesExtend {
+ filename="TentaclesExtend.mp3"
+ resgroup=14
+}
+Sound snd_SnowFootstep {
+ filename="SnowFootstep.mp3"
+ resgroup=14
+}
+Sound snd_HopOntoIce {
+ filename="HopOntoIce.mp3"
+ resgroup=14
+}
+Sound snd_Crusher {
+ filename="Crusher.mp3"
+ resgroup=14
+}
+Sound snd_UnlockDoor {
+ filename="DoorUnlock.wav"
+ resgroup=14
+}
+Sound snd_LovecraftHit1 {
+ filename="LovecraftHit1.mp3"
+ resgroup=14
+}
+Sound snd_LovecraftHit2 {
+ filename="LovecraftHit2.mp3"
+ resgroup=14
+}
+Sound snd_LovecraftHit3 {
+ filename="LovecraftHit3.mp3"
+ resgroup=14
+}
+Sound snd_SwitchItem {
+ filename="SwitchItem.mp3"
+ resgroup=14
+}
+Sound snd_ClockTick {
+ filename="ClockTick.mp3"
+ resgroup=14
+}
+Sound snd_HitInvulnerable {
+ filename="HitInvulnerable.mp3"
+ resgroup=14
+}
+Sound snd_TutCoffinOpen {
+ filename="TutCoffinOpen.mp3"
+ resgroup=14
+}
+Sound snd_HitTut1 {
+ filename="HitTut1.mp3"
+ resgroup=14
+}
+Sound snd_HitTut2 {
+ filename="HitTut2.mp3"
+ resgroup=14
+}
+Sound snd_Falling {
+ filename="Falling.mp3"
+ resgroup=14
+}
+Sound snd_TextBoxChange {
+ filename="TextBoxChange.mp3"
+ resgroup=14
+}
+Sound snd_EvilWallLoop {
+ filename="Construction.mp3"
+ resgroup=14
+}
+Sound snd_AreaChangeUp {
+ filename="AreaChangeUp.mp3"
+ resgroup=14
+}
+Sound snd_AreaChangeDown {
+ filename="AreaChangeDown.mp3"
+ resgroup=14
+}
+Sound snd_Lick1 {
+ filename="Lick1.mp3"
+ resgroup=14
+}
+Sound snd_Lick2 {
+ filename="Lick2.mp3"
+ resgroup=14
+}
+Sound snd_Lick3 {
+ filename="Lick3.mp3"
+ resgroup=14
+}
+Sound snd_Lick4 {
+ filename="Lick4.mp3"
+ resgroup=14
+}
+Sound snd_Lick5 {
+ filename="Lick5.mp3"
+ resgroup=14
+}
+Sound snd_Hit1 {
+ filename="Hit1.mp3"
+ resgroup=14
+}
+Sound snd_Hit2 {
+ filename="Hit2.mp3"
+ resgroup=14
+}
+Sound snd_Hit3 {
+ filename="Hit3.mp3"
+ resgroup=14
+}
+Sound snd_Hit4 {
+ filename="Hit4.mp3"
+ resgroup=14
+}
+Sound snd_Hit5 {
+ filename="Hit5.mp3"
+ resgroup=14
+}
+Sound snd_fireBreath {
+ filename="FireBreath.wav"
+ resgroup=14
+}
+Sound snd_Error {
+ filename="Error.mp3"
+ resgroup=14
+}
+Sound snd_Shrink {
+ filename="Shrink.mp3"
+ resgroup=14
+}
+Sound snd_DeShrink {
+ filename="DeShrink.mp3"
+ resgroup=14
+}
+Sound snd_StartTut {
+ filename="StartTut.mp3"
+ resgroup=14
+}
+Sound snd_EndTut {
+ filename="EndTut.mp3"
+ resgroup=14
+}
+Sound snd_MouseOver {
+ filename="MouseOver.wav"
+ resgroup=14
+}
+Sound snd_ButtonClick {
+ filename="ButtonClick.mp3"
+ resgroup=14
+}
+Sound snd_AbilitySelect {
+ filename="AbilitySelect.mp3"
+ resgroup=14
+}
+Sound snd_AbilityDeSelect {
+ filename="AbilityDeSelect.mp3"
+ resgroup=14
+}
+Sound snd_ChangeMenu {
+ filename="ChangeMenu.mp3"
+ resgroup=14
+}
+Sound snd_LightningOrb {
+ filename="LightningOrb.mp3"
+ resgroup=14
+}
+Sound snd_HitByFireball {
+ filename="HitByFireball.mp3"
+ resgroup=14
+}
+Sound snd_FirePassBy {
+ filename="FirePassBy.mp3"
+ resgroup=14
+}
+Sound snd_FrisbeeHitWall {
+ filename="FrisbeeHitWall.mp3"
+ resgroup=14
+}
+Sound snd_splat {
+ filename="splat.wav"
+ resgroup=14
+}
+Sound snd_lava {
+ filename="Lava.wav"
+ resgroup=14
+}
+Sound snd_shallowWater {
+ filename="ShallowWater.wav"
+ resgroup=14
+}
+Sound snd_switch {
+ filename="switch.wav"
+ resgroup=14
+}
+Sound snd_spring {
+ filename="spring.wav"
+ resgroup=14
+}
+Sound snd_iceDie {
+ filename="ice_die.wav"
+ resgroup=14
+}
+Sound snd_warp {
+ filename="warp.mp3"
+ resgroup=14
+}
+Sound snd_freeze {
+ filename="freeze.wav"
+ resgroup=14
+}
+Sound snd_key {
+ filename="key.wav"
+ resgroup=14
+}
+Sound snd_gem {
+ filename="gem.wav"
+ resgroup=14
+}
+Sound snd_iceBreath {
+ filename="icebreath.wav"
+ resgroup=14
+}
+Sound snd_drowning {
+ filename="drowning.wav"
+ resgroup=14
+}
+Sound snd_sillyPad {
+ filename="sillypad.wav"
+ resgroup=14
+}
+Sound snd_fireBossHit {
+ filename="firebosshit.wav"
+ resgroup=14
+}
+Sound snd_fireBossDie {
+ filename="firebossdie.wav"
+ resgroup=14
+}
+Sound snd_fireBossNova {
+ filename="firebossnova.wav"
+ resgroup=14
+}
+Sound snd_enemyDeath {
+ filename="enemyDeath.wav"
+ resgroup=14
+}
+Sound snd_tongue {
+ filename="tongue.wav"
+ resgroup=14
+}
+Sound snd_penguinSplash {
+ filename="penguinsplash.wav"
+ resgroup=14
+}
+Sound snd_penguinStep {
+ filename="penguinstep.wav"
+ resgroup=14
+}
+Sound snd_fireWorm {
+ filename="fireworm.wav"
+ resgroup=14
+}
+Sound snd_purchaseUpgrade {
+ filename="purchaseUpgrade.wav"
+ resgroup=14
+}
+Sound snd_ReflectionShield {
+ filename="ReflectionShield.mp3"
+ resgroup=14
+}
+Sound snd_Mana {
+ filename="Mana.mp3"
+ resgroup=14
+}
+Sound snd_Health {
+ filename="Health.mp3"
+ resgroup=14
+}
+Sound snd_Jesus {
+ filename="Jesus.mp3"
+ resgroup=14
+}
+Sound snd_HintMan {
+ filename="HintMan.mp3"
+ resgroup=14
+}
+Sound snd_Hopping {
+ filename="Hopping.mp3"
+ resgroup=14
+}
+Sound snd_NewAbility {
+ filename="NewItem2.mp3"
+ resgroup=14
+}
+Sound snd_Explosion1 {
+ filename="explosion1.wav"
+ resgroup=14
+}
+Sound snd_Explosion2 {
+ filename="explosion2.wav"
+ resgroup=14
+}
+Sound snd_Explosion3 {
+ filename="explosion3.mp3"
+ resgroup=14
+}
+Sound snd_FlameShoot {
+ filename="FlameShoot.mp3"
+ resgroup=14
+}
+Sound snd_FreezeShoot {
+ filename="freezeshoot.wav"
+ resgroup=14
+}
+Sound snd_CalypsoWobble {
+ filename="wobble.mp3"
+ resgroup=14
+}
+Sound snd_SmileyFrozen {
+ filename="smileyfrozen.wav"
+ resgroup=14
+}
+
+Sound snd_PortlyJumpOut {
+ filename="portlyjumpout.mp3"
+ resgroup=14
+}
+
+Sound snd_PortlySlide {
+ filename="penguinslide.mp3"
+ resgroup=14
+}
+
+Sound snd_LandingThud {
+ filename="landingthud.mp3"
+ resgroup=14
+}
+
+Sound snd_Boing {
+ filename="Boing.mp3"
+ resgroup=14
+}
+
+Sound snd_BartliRapid {
+ filename="bartlirapid.mp3"
+ resgroup=14
+}
+
+Sound snd_TutLaser {
+ filename="laser_zap.mp3"
+ resgroup=14
+}
+
+Sound snd_TutLightbeam {
+ filename="lightbeam.mp3"
+ resgroup=14
+}
+
+Sound snd_TutLightbeamIncreasing {
+ filename="lightbeamincreasing.mp3"
+ resgroup=14
+}
+
+Sound snd_TutLightbeamDecreasing {
+ filename="lightbeamdecreasing.mp3"
+ resgroup=14
+}
+
+Sound snd_BarvFloat {
+ filename="BarvFloat.mp3"
+ resgroup=14
+}
+
+Sound snd_BarvMouth {
+ filename="BarvMouth.mp3"
+ resgroup=14
+}
+
+Sound snd_BarvLaunchEnemy {
+ filename="BarvLaunch.mp3"
+ resgroup=14
+}
+
+Sound snd_BarvShoot {
+ filename="BarvShoot.mp3"
+ resgroup=14
+}
+
+Sound snd_FenwarYellowDotSplit {
+ filename="FenYellowDots.mp3"
+ resgroup=14
+}
+
+Sound snd_FenwarOrbsSpin {
+ filename="FenOrbsSpin.mp3"
+ resgroup=14
+}
+
+Sound snd_FenwarOrbPop {
+ filename="FenOrbPop.mp3"
+ resgroup=14
+}
+
+Sound snd_flailSwoosh {
+ filename="Swoosh01.mp3"
+ resgroup=14
+}
+
+Sound snd_squish {
+ filename="NastySlimySquish.mp3"
+ resgroup=14
+ }
+
+;************************************************
+;******** CORNWALLIS (Resource group 103 ********
+;************************************************
+Texture CornwallisTx {
+ filename="Graphics/cornwallis.png"
+ resgroup=103
+}
+Sprite cornwallisBody {
+ texture=CornwallisTx
+ rect=0,0,107,158
+ hotspot=53,78
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=103
+}
+Sprite redCornwallisBody {
+ texture=CornwallisTx
+ rect=107,0,107,158
+ hotspot=53,78
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=103
+}
+Sprite spikeShadow {
+ texture=CornwallisTx
+ rect=0,158,20,20
+ hotspot=10,10
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=103
+}
+Animation groundSpike {
+ texture=CornwallisTx
+ rect=20,158,20,60
+ frames=5
+ fps=20.0
+ mode=LOOP
+ hotspot=10,50
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=103
+}
+Sound snd_CornwallisGroundSpike {
+ filename="CornwallisGroundSpike.mp3"
+}
+Sound snd_CornwallisRapidFire {
+ filename="cactusrapidlong.mp3"
+}
+
+;**************************************************
+;****** LORD PHYREBAWZ (Resource Group 100) *******
+;**************************************************
+Texture phyrebawzTx {
+ filename="Graphics/fireboss.png"
+ resgroup=100
+}
+Animation Phyrebawz {
+ texture=phyrebawzTx
+ rect=0,0,97,158
+ frames=4
+ fps=20.0
+ mode=LOOP,PINGPONG
+ hotspot=48,79
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=100
+}
+Animation PhyrebawzDownMouth {
+ texture=phyrebawzTx
+ rect=0,158,32,17
+ frames=4
+ fps=12.0
+ mode=NOLOOP,PINGPONG
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=100
+}
+Animation PhyrebawzLeftMouth {
+ texture=phyrebawzTx
+ rect=0,175,27,13
+ frames=4
+ fps=12.0
+ mode=NOLOOP,PINGPONG
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=100
+}
+Animation PhyrebawzRightMouth {
+ texture=phyrebawzTx
+ rect=0,188,27,13
+ frames=4
+ fps=12.0
+ mode=NOLOOP,PINGPONG
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=100
+}
+Sprite flameLauncher {
+ texture=phyrebawzTx
+ rect=129,158,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=100
+}
+Sound snd_FireCannonLaunch {
+ filename="FireCannonLaunch.mp3"
+}
+
+;**************************************************
+;****** PORTLY PENGUIN (Resource Group 101) *******
+;**************************************************
+Sprite penguinBody {
+ texture="Graphics/penguin.png"
+ rect=1,1,127,127
+ hotspot=64,64
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=101
+}
+
+Sprite penguinSliding {
+ texture="Graphics/penguin.png"
+ rect=129,1,127,127
+ hotspot=64,64
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=101
+}
+
+Sprite penguinDrowning {
+ texture="Graphics/penguin.png"
+ rect=256,0,128,128
+ hotspot=64,64
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=101
+}
+
+Sprite penguinIceBlock {
+ texture="Graphics/penguin.png"
+ rect=48,128,64,64
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=101
+}
+
+;**************************************************
+;******** BRIAN FUNGUS (Resource Group 104) *******
+;**************************************************
+Sprite mushboom {
+ texture="Graphics/brian.png"
+ rect=0,0,115,105
+ hotspot=57,52
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=104
+}
+Sprite mushboomRightArm {
+ texture="Graphics/brian.png"
+ rect=0,105,39,25
+ hotspot=0,0
+ resgroup=104
+}
+Sprite mushboomLeftArm {
+ texture="Graphics/brian.png"
+ rect=0,131,39,25
+ hotspot=0,24
+ resgroup=104
+}
+Sprite mushboomBomb {
+ texture="Graphics/brian.png"
+ rect=0,156,35,46
+ hotspot=18,29
+ resgroup=104
+}
+Sprite mushboomBombShadow {
+ texture="Graphics/brian.png"
+ rect=36,190,35,12
+ hotspot=18,-9
+ resgroup=104
+}
+
+Sound snd_mushBombLand {
+ filename="mushBombLand.mp3"
+}
+Sound snd_mushBombToss {
+ filename="mushBombToss.mp3"
+}
+Sound snd_mushLaunchMushlet {
+ filename="mushLaunchMushlet.mp3"
+}
+
+;***********************************************
+;******** GARMBORN (Resource group 102) ********
+;***********************************************
+Texture garmbornTx {
+ filename="Graphics/garmborn.png"
+ resgroup=102
+}
+Sprite garmbornBody {
+ texture=garmbornTx
+ rect=0,0,192,192
+ hotspot=96,96
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=102
+}
+Sprite treelet {
+ texture=garmbornTx
+ rect=192,0,128,128
+ hotspot=64,64
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=102
+}
+Sprite grayTreelet {
+ texture=garmbornTx
+ rect=320,0,128,128
+ hotspot=64,64
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=102
+}
+Animation owlet {
+ texture=garmbornTx
+ rect=0,192,84,36
+ frames=4
+ fps=20.0
+ mode=LOOP,PINGPONG
+ hotspot=42,18
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=102
+}
+Sound snd_garmbornHit {
+ filename="garmbornRoar.mp3"
+ resgroup=102
+}
+Sound snd_treeletHit {
+ filename="treeletRoar.wav"
+ resgroup=102
+}
+
+;*********************************************
+;******** CALYPSO (Resource Group 105) *******
+;*********************************************
+Texture CalypsoTx {
+ filename="Graphics/calypso.png"
+ resgroup=105
+}
+Sprite calypso {
+ texture=CalypsoTx
+ rect=0,0,160,160
+ hotspot=80,80
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=105
+}
+Sprite evilCalypso {
+ texture=CalypsoTx
+ rect=0,160,160,160
+ hotspot=80,80
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=105
+}
+Sprite calypsoShield {
+ texture=CalypsoTx
+ rect=160,0,180,180
+ hotspot=90,90
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=105
+}
+Sound snd_CalypsoEvil {
+ filename="calypsoEvil.wav"
+}
+Sound snd_CalypsoLaser {
+ filename="CalypsoLaser.mp3"
+}
+
+;**************************************************
+;******** BARTLI (Resource group 106) *************
+;**************************************************
+Animation bartli {
+ texture="Graphics/Bartli.png"
+ rect=0,0,110,132
+ frames=2
+ fps=20.0
+ mode=LOOP,PINGPONG
+ hotspot=55,132
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=106
+}
+Sprite bartliArm {
+ texture="Graphics/Bartli.png"
+ rect=31,147,40,15
+ hotspot=39,7
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=106
+}
+Sprite bartliLeg {
+ texture="Graphics/Bartli.png"
+ rect=5,143,17,26
+ hotspot=8,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=106
+}
+Sprite bartliShadow {
+ texture="Graphics/Bartli.png"
+ rect=73,144,92,18
+ hotspot=46,9
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=106
+}
+Sprite bartletBlue {
+ texture="Graphics/Bartli.png"
+ rect=2,170,64,54
+ hotspot=32,27
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=106
+}
+Sprite bartletRed {
+ texture="Graphics/Bartli.png"
+ rect=67,170,64,54
+ hotspot=32,27
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=106
+}
+Sound snd_BartliRunning {
+ filename="BartliRunning.mp3"
+ resgroup=106
+}
+Sound snd_BartliJumpLand {
+ filename="BartliJumpLand.mp3"
+ resgroup=106
+}
+Sound snd_BartliBreathing {
+ filename="BartliBreathing.mp3"
+ resgroup=106
+}
+Sound snd_BartliHit1 {
+ filename="BartliHit1.mp3"
+ resgroup=106
+}
+Sound snd_BartliHit2 {
+ filename="BartliHit2.mp3"
+ resgroup=106
+}
+Sound snd_BartliHit3 {
+ filename="BartliHit3.mp3"
+ resgroup=106
+}
+Sound snd_BartletSpawn {
+ filename="BartletSpawn.mp3"
+ resgroup=106
+}
+
+;****************************
+;******** KING TUT **********
+;****** Resource group 107 **
+;****************************
+Sprite KingTut {
+ texture="Graphics/Tut.png"
+ rect=0,0,68,227
+ hotspot=34,113
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=107
+}
+Sprite KingTutShadow {
+ texture="Graphics/Tut.png"
+ rect=68,0,68,227
+ hotspot=34,113
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=107
+}
+Sprite KingTutInsideSarcophagus {
+ texture="Graphics/Tut.png"
+ rect=136,0,68,227
+ hotspot=34,113
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=107
+}
+Sprite KingTutLightningWedge {
+ texture="Graphics/Tut.png"
+ rect=206,0,620,484
+ hotspot=0,242
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=107
+}
+
+;****************************
+;**** LOVECRAFTIAN BOSS *****
+;*** Resource group  108 ****
+;****************************
+Texture LovecraftTx {
+ filename="Graphics/Lovecraft.png"
+ resgroup=108
+}
+Animation LightningEye {
+ texture=LovecraftTx
+ rect=0,193,88,41
+ frames=5
+ fps=10.0
+ mode=LOOP
+ hotspot=44,20
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=108
+}
+Animation IceEye {
+ texture=LovecraftTx
+ rect=0,235,88,41
+ frames=5
+ fps=10.0
+ mode=LOOP
+ hotspot=44,20
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=108
+}
+Animation FireEye {
+ texture=LovecraftTx
+ rect=0,277,88,41
+ frames=5
+ fps=10.0
+ mode=LOOP
+ hotspot=44,20
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=108
+}
+Sprite TentacleShadow {
+ texture=LovecraftTx
+ rect=1,319,45,9
+ hotspot=23,4
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=108
+}
+Sprite LovecraftIceBlock {
+ texture=LovecraftTx
+ rect=0,329,512,60
+ hotspot=0,30
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=108
+}
+
+;*****************************
+;***** BIG BARVINOID BOSS ****
+;***** Res group 109 *********
+;*****************************
+Texture barvinoidTx {
+ filename="Graphics/Barvinoid.png"
+ resgroup=109
+}
+Sprite barvinoidSprite {
+ texture=barvinoidTx
+ rect=0,0,283,355
+ hotspot=141,289
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=109
+}
+Sprite barvinoidRightEyeSprite {
+ texture=barvinoidTx
+ rect=283,0,54,51
+ hotspot=133,273
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=109
+}
+Sprite barvinoidLeftEyeSprite {
+ texture=barvinoidTx
+ rect=283,52,54,51
+ hotspot=-80,273
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=109
+}
+Sprite barvinoidMinionSprite {
+ texture=barvinoidTx
+ rect=283,103,45,39
+ hotspot=23,20
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=109
+}
+Sprite barvinoidMinionShadow {
+ texture=barvinoidTx
+ rect=283,206,45,39
+ hotspot=23,20
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=109
+}
+Sprite barvinoidShadow {
+ texture=barvinoidTx
+ rect=0,356,244,148
+ hotspot=119,81
+ resgroup=109
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation barvinoidMouth {
+ texture=animations
+ rect=0,768,67,60
+ fps=10.0
+ frames=9
+ hotspot=31,30
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+ resgroup=109
+ mode=NOLOOP
+}
+Sprite crosshair {
+ texture=barvinoidTx
+ rect=283,245,125,124
+ hotspot=64,64
+ resgroup=109
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite floatingEyeShot {
+ texture=barvinoidTx
+ rect=283,142,64,64
+ hotspot=32,32
+ resgroup=109
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;*****************************
+;******** PROJECTILES ********
+;*****************************
+Texture projectileTx {
+ filename="Graphics/projectiles.png"
+}
+Sprite basicProjectile {
+ texture=projectileTx
+ rect=0,0,20,20
+ hotspot=10,10
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite frisbeeProjectile {
+ texture=projectileTx
+ rect=1,21,62,62
+ hotspot=31,31
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite spikeProjectile {
+ texture=projectileTx
+ rect=0,85,64,14
+ hotspot=32,7
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite lightningOrbProjectile {
+ texture=projectileTx
+ rect=0,98,31,31
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHAADD,NOZWRITE
+}
+Sprite fishProjectile {
+ texture="Graphics/penguin.png"
+ rect=0,128,48,32
+ hotspot=24,16
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite cannonballProjectile {
+ texture=projectileTx
+ rect=32,98,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite mushroomletProjectile {
+ texture="Graphics/brian.png"
+ rect=55,105,60,65
+ hotspot=30,33
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite laserProjectile {
+ texture="Graphics/projectiles.png"
+ rect=64,0,5,130
+ hotspot=2,65
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite tutProjectile {
+ texture=projectileTx
+ rect=0,130,64,20
+ hotspot=32,10
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite tutProjectileMummy {
+ texture=projectileTx
+ rect=0,148,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite CandyProjectile {
+ texture=general
+ rect=196,144,58,45
+ hotspot=29,22
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite Figure8Projectile {
+ texture=projectileTx
+ rect=1,215,30,30
+ hotspot=15,15
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite SlimeProjectile {
+ texture=general
+ rect=129,221,24,34
+ hotspot=12,17
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite OrangeProjectile {
+ texture=projectileTx
+ rect=21,0,16,16
+ hotspot=7,7
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite BoomerangProjectile {
+ texture=projectileTx
+ rect=32,214,32,32
+ hotspot=16,16
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite SkullProjectile {
+ texture=projectileTx
+ rect=25,247,23,30
+ hotspot=11,15
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite AcornProjectile {
+ texture=projectileTx
+ rect=1,247,21,23
+ hotspot=10,11
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;**************************
+;******** Tiles ********
+;**************************
+Texture itemLayer1 {
+ filename="Graphics/itemlayer1.png"
+}
+Texture itemLayer2 {
+ filename="Graphics/itemlayer2.png"
+}
+Texture mainLayerTx {
+ filename="Graphics/mainlayer.png"
+}
+Texture walkLayerTx {
+ filename="Graphics/walklayer.png"
+}
+Animation mainLayer {
+ texture=mainLayerTx
+ rect=0,0,64,64
+ frames=256
+ fps=10.0
+ mode=NOLOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation walkLayer {
+ texture=walkLayerTx
+ rect=0,0,64,64
+ frames=256
+ fps=10.0
+ mode=NOLOOP
+ hotspot=0,0
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+;**************************
+;******** Textures ********
+;**************************
+Texture general {
+ filename="Graphics/sprites.png"
+}
+Texture enemies {
+ filename="Graphics/enemies.png"
+}
+Texture tapestriesTx {
+ filename="Graphics/tapestries.png"
+}
+Texture npcTx {
+ filename="Graphics/npcs.png"
+}
+
+
+;*************************
+;******** Enemies ********
+;*************************
+Animation evileye {
+ texture=animations
+ rect=640,192,64,64
+ frames=5
+ fps=10.0
+ mode=NOLOOP
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation burrowAnim0 {
+ texture=animations
+ rect=640,256,64,64
+ frames=5
+ fps=10.0
+ mode=NOLOOP
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation burrowAnim1 {
+ texture=animations
+ rect=640,320,64,64
+ frames=5
+ fps=10.0
+ mode=NOLOOP
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation bombSpawn {
+ texture=animations
+ rect=448,64,64,64
+ frames=8
+ fps=10.0
+ mode=NOLOOP
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation bombEyesGlow {
+ texture=animations
+ rect=640,128,64,64
+ frames=6
+ fps=20.0
+ mode=PINGPONG
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite bombRedCircle {
+ texture=general
+ rect=640,128,192,192
+ hotspot=96,96
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite clownChainDot {
+ texture=animations
+ rect=960,64,16,16
+ hotspot=8,8
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite clownHead {
+ texture=animations
+ rect=960,192,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Animation batlet {
+ texture=animations
+ rect=640,384,82,35
+ frames=4
+ fps=16.0
+ mode=PINGPONG
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite buzzardWing {
+ texture=general
+ rect=154,221,98,27
+ hotspot=100,14
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite flailLink {
+ texture=general
+ rect=80,0,16,16
+ hotspot=8,8
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite flailHead {
+ texture=general
+ rect=0,0,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite flailHeadRed {
+ texture=general
+ rect=0,896,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite stunStar {
+ texture=general
+ rect=64,16,10,10
+ hotspot=5,5
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite evilWall {
+ texture=general
+ rect=256,64,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+Sprite evilWallSpike {
+ texture=general
+ rect=320,64,64,64
+ hotspot=32,32
+ blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}

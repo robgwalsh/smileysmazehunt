@@ -1,0 +1,664 @@
+[HGESTRINGTABLE]
+
+;NPC >= 100 < 240 is for bosses
+;NPC >= 240 is for fenwar encounters
+
+;=============================================HINTS======================================
+Hint0Pages = "5"
+Hint0-1 = "Hold on Smiley, let me put down this cigar."
+Hint0-2 = "Alright.  You're stuck already?  That's fine.  I'm used to working with people not as smart as myself."
+Hint0-3 = "So have you even talked to Jethro?  He told you to go down south of Smiley Town."
+Hint0-4 = "I've heard that there's a powerful item in some mysterious cavern down there."
+Hint0-5 = "Hope that helped.  I'll see you around."
+
+Hint1Pages = "5"
+Hint1-1 = "Hey Smiley.  Stumped again?"
+Hint1-2 = "Well it's understandable.  This is a big world we live in...  with a lot of nice looking women in it."
+Hint1-3 = "I'm going to be honest, I have no idea what you need to do next."
+Hint1-4 = "But, one of my former vice presidents thinks you should help combat global cooling by melting the ice caps with your new fire breath."
+Hint1-5 = "The ice caps are located in a mysterious snowplain called Sessaria. I wonder where that is?"
+
+Hint2Pages = "6"
+Hint2-1 = "Smiley, buddy!  What's happening?"
+Hint2-2 = "I've heard you got a frisbee.  That's pretty cool.  I used to play a lot back in the day, when I wasn't stoned."
+Hint2-3 = "You should try hitting stuff with it.  Like Hillary!  Haha just kidding."
+Hint2-4 = "But seriously, I'm getting a vision.  You need to go fight an evil tree."
+Hint2-5 = "Now where would you be most likely to find an evil tree?  That's your job."
+Hint2-6 = "That's all for now.  Adios Smiley."
+
+Hint3Pages = "2"
+Hint3-1 = "Smiley.  What's up?  I'm a little busy so let's make this snappy."
+Hint3-2 = "South of Olde Towne is a timed switch. You should hit it, and figure out where it leads to!"
+
+Hint4Pages = "7"
+Hint4-1 = "Hey man.  I've heard you got lightning orbs now."
+Hint4-2 = "Who told me, you ask?  Well, for my own presidential safety I have security cameras installed all over the land."
+Hint4-3 = "I know what you're thinking.  Don't worry.  I only have them in the gals' bathrooms."
+Hint4-4 = "But anyways, there's only one place I don't have any cameras: The Realm of Despair."
+Hint4-5 = "It's located east of the fountain, but Fenwar destroyed the bridge there."
+Hint4-6 = "You should use your lightning orbs to find a detour, then help me with my quest for pseudo-omniscience."
+Hint4-7 = "Thanks a bunch, dog!"
+
+Hint5Pages = "6"
+Hint5-1 = "Dang it, Smiley, do you always need my help?"
+Hint5-2 = "If I tell you where to go for every item, you'll never figure it out on your own!"
+Hint5-3 = "Alright, alright, stop your sobbing. Inside the Forest of Fundoria is a land of mushrooms!!"
+Hint5-4 = "Getting inside is tricky, however."
+Hint5-5 = "You should try using your new-fangled force field thing you just got.  That will surely get you in!"
+Hint5-6 = "I need to get back to work.  Have fun!"
+
+Hint6Pages = "4"
+Hint6-1 = "Smiley.  Remember Lord Phyrebawz?  Fenwar's number one goon?"
+Hint6-2 = "Anyways, my all-knowing powers tell me that he's watching over your dear love while Fenwar goes shopping for new drapes!"
+Hint6-3 = "Now is your time to strike!  You must hurry!"
+Hint6-4 = "He has fled from Smolder Hollow into his true domain in Pools of the Dead, just south of the Realm of Despair."
+
+Hint7Pages = "5"
+Hint7-1 = "Oh my God!  You got Jesus' Sandals!  Haha, get it?!"
+Hint7-2 = "I'm on my game today, huh buddy?  That's what my girl told me, at least."
+Hint7-3 = "I wanted to buy her some chocolates today, but I forgot that there's football on tonight."
+Hint7-4 = "Could you pick up some for me?  Thanks a bunch."
+Hint7-5 = "There should be somewhere in this game with some, right?"
+
+Hint8Pages = "5"
+Hint8-1 = "Good day, Smiley."
+Hint8-2 = "I'm glad you finally got the ice breath!"
+Hint8-3 = "The other day I was camping in the Swamp of Ill Destiny and a sudden gust of wind blew my campfire into the nearest tree."
+Hint8-4 = "I tried to put it out but to no avail.  So I just ran home."
+Hint8-5 = "Could you go down there and put it out for me?  If the media finds out, I'll never hear the end of it."
+
+Hint9Pages = "5"
+Hint9-1 = "Smiley.  You're nearing the end of your adventure."
+Hint9-2 = "That means it's about time you start figuring out things on your own!"
+Hint9-3 = "I'm going on vacation soon and my telepathic powers will be turned off.  I'm still debating on where to go."
+Hint9-4 = "I heard there are some nice women that go tanning by the Mile River.  Could you check that out for me?"
+Hint9-5 = "Where is the Mile River?  Somewhere south.  Take pictures.  *wink*"
+
+Hint10Pages = "4"
+Hint10-1 = "Smiley, my boy.  You are becoming quite powerful now."
+Hint10-2 = "With Tut's mask you will finally be able to access the Castle of Evil via the Serpentine Path."
+Hint10-3 = "But to reach Fenwar himself, you will need one more item."
+Hint10-4 = "Good luck!  The most difficult part of your journey awaits you!"
+
+Hint11Pages = "4"
+Hint11-1 = "Are you kidding me, Smiley?"
+Hint11-2 = "I don't know if you have noticed, but your inventory is completely filled."
+Hint11-3 = "Usually in these types of games, that implies you should probably be near the end."
+Hint11-4 = "So yeah.  Go defeat Fenwar already.  I know you can do it!"
+
+
+;=============================================SIGNS======================================
+;FOUNTAIN.SMH
+Sign1 = "\n\n\nSmiley's house"
+Sign2 = "\n\nWelcome to Smiley Town.\nPopulation: 6"
+Sign3 = "\n\nStuck?  Trying hitting a switch with your tongue."
+Sign4 = "\n\nWatch out for enemies!  Attack them with your tongue to destroy them!"
+Sign5 = "\n\nUse springs to hop over obstacles."
+Sign6 = "\n\nUse warps like these to travel to other areas instantly!"
+Sign7 = "\n\nLook out for ice!  You can't change direction while slipping on it!"
+Sign9 = "\n\nThis way to Olde Towne.  Bring plenty of food and, more importantly, water!"
+Sign14 = "\n\nAhead are the Sessaria Snow Plains.  Bring your mittens!"
+Sign15 = "\nApproaching the Forest of Fundoria - home of the famous Mushroom Cave and Swamp of Ill Destiny."
+Sign34 = "\n\nWatch out for slime!  It's pretty slippery!"
+Sign35 = "\nIf you get blocked into an area, destroying all of the enemies there will open the exits."
+Sign36 = "\n\nLick the lollipop to save the game."
+Sign37 = "\n\nYou can access your map and inventory by pressing Pause."
+Sign64 = "\n\nGet off my lawn - \n\n Bill Clinton"
+Sign67 = "Find gems such as this to buy upgrades from Speirdyke in town.  Red gems are worth 1 Smiley dollar, yellow are worth 3, and blue are worth 5."
+Sign68 = "\nHave you talked to Bill Clinton yet?  He has a very important item that is critical to your quest."
+Sign69 = "By pressing and holding the aim key you can turn Smiley without moving him.  This becomes very useful, so don't forget it!"
+Sign75 = "This is one of the two secret switches of Treasure Isle."
+Sign78 = "If you have less than 3 hearts left, the lollipop will fill your life up to 3.  This will be VERY helpful later on, so don't forget it!"
+
+;OLDETOWNE.SMH
+Sign10 = "\n\nTo pass through this door, you will first need to find a red key"
+Sign11 = "\n\n\nOlde Towne"
+Sign12 = "\n\nThis way to Smolder Hollow, home to many a fire and flame!"
+Sign27 = "\n\nThe switch to enter the Deep's Desert is just south of Olde Towne."
+Sign28 = "\n\nThis switch opens Deep's Desert. It's timed, so hurry your horses!"
+Sign29 = "\nThese times switches lead the way to a gem. It's tricky, so skip it if you want!"
+Sign51 = "\n\nOnly the tiniest of tiny travellers may continue south to the Mile River."
+Sign61 = "Only with the legendary Speed Boots will you be able to run fast enough for this Timed Switch!"
+Sign62 = "\n\nThis EVIL CYLINDER is for later in your adventure."
+Sign63 = "\nRemember that EVIL CYLINDER from early in the adventure? That's what this timed switch activates!"
+Sign82 = "\nGet the dickens outter my house!\n\n-Abner Longfellow"
+
+;SMHOLLOW.SMH
+Sign13 = "\n\n\nDangerous and deep pits ahead!  Beware!"
+Sign55 = "Maintenance - It appears global cooling is even affecting us down here. Please try to keep the walkways clear of ice!\n- Phyrebawz                      "
+ 
+;SNOW.SMH
+Sign16 = "\n\n\nThis way to Candy Mountain."
+Sign17 = "\nBridge currently out of order.  Construction will continue one day, if this recession ever stops."
+Sign18 = "\nAhead lies the temple of the sacred frisbee.  Tours are cancelled until evil creatures go away.  Beware."
+Sign23 = "\n\nSome switches only work for a certain period of time..."
+Sign30 = "\nThis way to a mysterious warp to the Realm of Despair.  Enter at your own risk."
+Sign44 = "\nTwo Snowfangs, each wielding a flail, have blocked the passage. They reside southwest of here. Kill them to proceed!"
+Sign45 = "\nOnly those able to find the 3 hidden switches of Candy Mountain may access the treasures at the peak."
+Sign46 = "\nTo the right: CERTAIN DEATH\n\nTo the left: save point"
+Sign47 = "\nThose who desire this green key must remain here forever.  Mwahahahah!\n\n-Fenwar"
+Sign48 = "\nThe purpose of this sign is to distract you from reaching the other side of that cylinder in time."
+Sign74 = "Population control:\n\nKill the red floating candies before attacking other enemies."
+Sign81 = "\nHint: A Walkin' Bomb moves more quickly when Smiley is standing on a Walkin' Bomb Speed Pad!"
+
+;FOREST.SMH
+Sign19 = "You will never reach me without first striking the three dark switches I have hidden in my forest!\n\n-Garmborn, Lord of Treelets"
+Sign20 = "\n\nNever forget to use all of the tools at your disposal."
+Sign21 = "My maze of evil cylinders shall surely stymie your efforts!\n\n-Garmborn, Lord of Treelets"
+Sign22 = "\n\nKeep your wits about you, and this ice puzzle will melt to your cunning."
+Sign24 = "This is the first of the dark switches.  The rest will not come so easily!\n\n-Garmborn, Lord of Treelets"
+Sign25 = "\n\nMy home is just down yonder cobblestone path."
+Sign26 = "\n\n\nGarmborn's lair, just ahead."
+Sign39 = "The Magic Mushroom Cave is ahead.  Its entrance is guarded by the impenetrable turrets of Brian Fungus."
+Sign41 = "\n\nSwamp of Ill Destiny lies due north."
+Sign42 = "A large boulder blocks the path.\n \nAnother entrance must be found if the swamp is to be entered."
+Sign43 = "Fenwar received one less boulder than he ordered from BoulderDash, Inc.\nI wonder if he made an illusion to compensate?"
+Sign49 = "God said this fire will burn forever as a neverending source of energy for this world.  Please do NOT put it out and cause an energy crisis!"
+Sign52 = "The entrance to the loot room has crumbled and is only accessible to those who are height-challenged."
+Sign73 = "Walkin'-Bombs always turn left and explode when you get too close.  Use silly pads and clever timing to make them clear paths for you!"
+Sign79 = "\n\nEAST: Shortcut to Sessaria Snowplains"
+Sign80 = "\n\nCAVE: Shortcut to Dunes of Salabia"
+
+;DESPAIR.SMH
+Sign31 = "The sandals of Jesus to be on exhibit in the near future, just ahead.  Admission: $100  \n\n-Lord Phyrebawz"
+Sign32 = "To the south lies the lair of Calypso, guardian reflection shield.  This would be a useful item to have in one's inventory..."
+Sign33 = "Four, Three, Two, One, keys in each layer, isn't that fun?\n\n-Calypso"
+Sign38 = "\nTo the north lies the Serpentine Path, which leads to the Castle of Evil (Fenwar's lair)."
+Sign40 = "Note to the workers: Please remove these springs when you get a chance. Doing so will hinder Smiley's progress permanently. \n-Lord Phyrebawz"
+Sign50 = "This puzzle is not for the faint-of-heart. It's just a gem, so skip it if you want!"
+Sign53 = "\n\nThe Pools of the Dead - home of Lord Phyrebawz."
+Sign76 = "Things aren't always what they seem."
+
+;TUT.SMH
+Sign54 = "\n\nShine the light of your faith in Tut into the hall of mirrors to pass."
+
+;PATH.SMH
+Sign56 = "\nIf at any point you wish to exit, take one of the red warps.  Otherwise, continue to imminent doom."
+Sign57 = "The next room is guarded by the Protectors.  They are invulnerable and will destroy you with one touch.  Take heed.  Turn around now.  I'm serious."
+Sign58 = "\n\nDid you read the last sign?  We're warning you."
+Sign59 = "\n\nWalk 3 more blocks to the right and you're toast."
+Sign72 = "\n\nTake a left after the mushroom-room.  You'll like what you find!"
+
+;CASTLE.SMH
+Sign0  = "Minions,\nWarning! Stepping on the skull is necessary but dangerous! Beware the Evil Wall that will chase you!\n   -Fenwar"
+Sign60 = "There is a warp hidden in the Tapestry of Evil."
+Sign66 = "\n\nShortcut to Smiley's house that I'll use in the kidnapping."
+Sign70 = "Little smileys prefer to be called smile-lets.  They only like other smile-lets and large flowers with faces."
+Sign71 = "Beware of evil spikey walls triggered by skull markings on the ground.  The only way to stop them is to reach the green, circular Smiley tile in time!"
+Sign77 = "There is a shortcut to Smiley Town right outside the castle!  I sure hope Smiley never finds out about it, because that would be really convenient for him! \n -Fenwar"
+
+;CONSERVE.SMH
+Sign65 = "Note to maintenance: The enormous amount of treasure that was once here has been moved to the secret conservatory room to hide from Smiley."
+
+
+
+
+
+;==============================================NPCS======================================
+;FOUNTAIN.SMH
+NPC0Name = "Glen"
+NPC0Pages = "4"
+NPC0-1 = "Hello there Smiley!  How are you today?  Why so glum?"
+NPC0-2 = "I'd give you something to help cheer you up, but I'm busy contemplating quantum field theory."
+NPC0-3 = "Why not take a dip by the fountain?  Never forget that its waters cure and heal all!"
+NPC0-4 = "The fountain will be quite useful in your adventure so take advantage of it!"
+
+NPC1Name = "Jethro"
+NPC1Pages = "3"
+NPC1-1 = "I saw some shady lookin' feller run down thata'way dragging some one with him!"
+NPC1-2 = "Think he was goin' south down towards ye Olde Towne, but why would anyone want to go there?"
+NPC1-3 = "That mud hole of a town's got no one left after Fenwar terrorized thems peoples."
+
+NPC5Name = "Speirdyke"
+NPC5Pages = "3"
+NPC5-1 = "Name's Captain Speirdyke, pirate extraordinaire.  My ship was mortally wounded by fierce storm in the Atlarctic Ocean."
+NPC5-2 = "Anyways, to make a long story short, boy, I need some loot to buy myself a new ship and get back on the water."
+NPC5-3 = "If you help me out, I'll repay you!  You have my word."
+
+NPC8Name = "Bill Clinton"
+NPC8Pages = "2"
+NPC8-1 = "Hi, I'm former US President Bill Clinton.  Thanks for licking me."
+NPC8-2 = "In return, take this cane, it will let us communicate telepathically."
+
+;Bill Clinton 2 - used after he gives you the cane
+NPC19Name = "Bill Clinton"
+NPC19Pages = "2"
+NPC19-1 = "Hey, uhhh, I'd prefer it if we weren't seen talking in public. You still have that cane right?"
+NPC19-2 = "You see, I prefer to only be seen talking to important people and hot chicks."
+
+NPC20Name = "Random Woman"
+NPC20Pages = "1"
+NPC20-1 = "Oh hey honey.  You're a cutie."
+
+NPC21Name = "Monocle Man"
+NPC21Pages = "3"
+NPC21-1 = "Hello there, stranger. I am brimming with knowledge."
+NPC21-2 = "I am expert in all areas. Just let me know the area in which you need advice."
+NPC21-3 = "Disclaimer: any advice I give is based on the default control scheme."
+
+;OLDETOWNE.SMH
+NPC2Name = "Abner"
+NPC2Pages = "5"
+NPC2-1 = "Howdy there.  Name's Abner Longfellow, the last citizen of Olde Towne."
+NPC2-2 = "It's not very often that I see a stranger like you 'round here."
+NPC2-3 = "But I did see some mean lookin' cowboy headin' northeast of here not long ago."
+NPC2-4 = "Probably headin' towards the Smolder Hollow.  Too bad I have the only key to it!  YAHAHA!"
+NPC2-5 = "...Oh wait.  Where did that thing go?  Gosh darn it!  I must have misplaced it!"
+
+NPC6Name = "Randeep"
+NPC6Pages = "2"
+NPC6-1 = "Stupid people... They told me there is an oasis just northwest of here."
+NPC6-2 = "I haven't seen it in 35 years of wandering the desert! Unless it's behind that green key door, I don't think it exists."
+
+NPC10Name = "Akil"
+NPC10Pages = "5"
+NPC10-1 = "Hello, I am Akil.  I'm not really Egyptian - I'm just dressed up to amuse tourists like you."
+NPC10-2 = "So, this is the Mile River.  It extends about a mile from King Tut's tomb at one end to the Smiley Town landfill at the other."
+NPC10-3 = "I was planning on raiding Tut's tomb after work today, are you interested?"
+NPC10-4 = "What if I told you that the treasure could give you incredible powers?  Please come!"
+NPC10-5 = "Actually I just don't want to go alone.  Just thinking about going down there makes me wet myself."
+
+
+
+
+;SNOW.SMH
+NPC3Name = "Esky"
+NPC3Pages = "3"
+NPC3-1 = "Dang, I used to take this sweet shortcut back to my igloo up there."
+NPC3-2 = "But thanks to global cooling it got so cold that it froze over!"
+NPC3-3 = "If I only had a flamethrower, or something of the sort, I could blast through."
+
+NPC4Name = "Moesky"
+NPC4Pages = "6"
+NPC4-1 = "Greetings friend.  Welcome to the Sessaria Snow Plains.  Thanks for stopping by!"
+NPC4-2 = "There are plenty of sights to see around here, but the most popular is Candy Mountain, to the west."
+NPC4-3 = "Unfortunately, the bridge was recently torn up by some of Fenwar's goons."
+NPC4-4 = "I think Fenwar's trying to hide something from people up there..."
+NPC4-5 = "My father told me about some mystical magical item that's deep inside one of the caves of the mountain!"
+NPC4-6 = "Of course, my father told me a lot of garbage stories to get me to go to sleep."
+
+
+
+
+;FOREST.SMH
+NPC7Name="Fauna Biologist"
+NPC7Pages="3"
+NPC7-1 = "Ahoy there! I'm glad you found me this deep in the forest."
+NPC7-2 = "The last time I saw another member of the species Spherifaceous was when I was yet a wee lad."
+NPC7-3 = "Well then, I needn't keep you any longer. You'd best be on your way!"
+
+NPC9Name = "Yauyau"
+NPC9Pages = "5"
+NPC9-1 = "Greetings.  I am Yauyau the lizard man.  It's nice to see a fellow non-evil being in these parts."
+NPC9-2 = "Because of climate change caused by global cooling, the town has flooded and is left in ruins."
+NPC9-3 = "My house is fine though, so I don't really care.  Anyways, have you seen the temple in the center of the lake?"
+NPC9-4 = "I tried to break in the other night but it turns out I needed 5 blue keys..."
+NPC9-5 = "I'd rather pace in this enclosed area for the rest of my life than look for them, though."
+
+
+
+
+;TUT.SMH
+NPC11Name = "Pharaoh Moan I"
+NPC11Pages = "1"
+NPC11-1 = "Battles bestrew bloodied barbarian bodies."
+
+NPC12Name = "Pharaoh  Moan II"
+NPC12Pages = "1"
+NPC12-1 = "An ample alabaster ankh always alleviates an annoyance."
+
+NPC13Name = "Pharaoh Moan III"
+NPC13Pages = "1"
+NPC13-1 = "Crazed, corrupt crows can caw continuously."
+
+NPC14Name = "Pharaoh Moan IV"
+NPC14Pages = "1"
+NPC14-1 = "Always ally an awfully aggressive adversary."
+
+NPC15Name = "Pharaoh Moan V"
+NPC15Pages = "1"
+NPC15-1 = "Belated breathing brings brewing burial."
+
+NPC16Name = "Pharaoh Moan VI"
+NPC16Pages = "1"
+NPC16-1 = "Chaos can cause copius conundrums."
+
+NPC17Name = "Pharaoh Moan VII"
+NPC17Pages = "1"
+NPC17-1 = "Death decidedly dominates depressing doldrums."
+
+NPC18Name = "Pharaoh Moan VIII"
+NPC18Pages = "1"
+NPC18-1 = "Do dank dungeons desire dutiful detergent dolloping?"
+
+
+
+
+;CASTLE.SMH
+NPC22Name = "Bobbo"
+NPC22Pages = "6"
+NPC22-1 = "Whatcha lookin' at?  Never seen a smilelet before?  Name's Bob, but my true pals call me Bobbo."
+NPC22-2 = "Smilelets don't talk to larger folk; we're actually instinctively scared of you.  But I'm in quite a pickle right now."
+NPC22-3 = "It seems Fenwar that has captured my entire extended family and hidden them all over his castle."
+NPC22-4 = "If you were to become rather SMALL, you could get my family members to follow you!"
+NPC22-5 = "If you gather 5 of us together on a frowny flower, we'll dance around it in blissful harmony so you can pass through!"
+NPC22-6 = "I must warn you, though. We smilelets frighten easily. If we sense danger, we flee back to our hiding spots!"
+
+
+;==============================================BOSSES=====================================
+;Lord Phyrebawz
+NPC100Name = "Fenwar"
+NPC100Pages = "2"
+NPC100-1 = "...and I told him it wouldn't go with the drapes...Oh dickens we have an intruder!"
+NPC100-2 = "He might have overheard our diabolical plans. Lord Phyrebawz, destroy this pest at once!"
+NPC101Name = "Lord Phyrebawz"
+NPC101Pages = "2"
+NPC101-1 = "I say young lad, you are quite the formidable adversary! I forgot to take my vitamins this morning so I'm afraid I'm not quite up to snuff at the moment."
+NPC101-2 = "Should we ever meet again I must warn you that your victory won't be quite as assured, Oh ho ho ho! Now where did I leave those vitamins..."
+
+;Portly Penguin
+NPC110Name = "Portly Penguin"
+NPC110Pages = "2"
+NPC110-1 = "What? Are you here to make fun of my hydrophobia too? Just cause I hate H2O doesn't mean I'm not a penguin!"
+NPC110-2 = "That's it, I've put up with enough bullying! You're dead!"
+;Penguin battle chat 1
+NPC111Name = "Portly Penguin"
+NPC111Pages = "2"
+NPC111-1 = "Brrrrr.... It's cold in here!"
+NPC111-2 = "I have no time for such bullying. Now I'm hopping mad!"
+;Penguin battle chat 2
+NPC112Name = "Portly Penguin"
+NPC112Pages = "1"
+NPC112-1 = "Ninja."
+;Penguin defeat text
+NPC113Name = "Portly Penguin"
+NPC113Pages = "2"
+NPC113-1 = "This is just like at the schoolyard back in Atlarctica!"
+NPC113-2 = "Here, take my frisbee, you big bully. Hmph!"
+
+;Lord Garmborn
+NPC120Name = "Lord Garmborn"
+NPC120Pages = "3"
+NPC120-1 = "I've been waiting for you Smiley."
+NPC120-2 = "After all I am a tree, I can't really do much else. Errr...wait, Lord Fenwar said I must try to be more intimidating."
+NPC120-3 = "You may have solved my evil puzzles, but it was all for naught as you will now meet your doom!!! How was that?"
+;Lord Garmborn licked text
+NPC121Name = "Lord Garmborn"
+NPC121Pages = "1"
+NPC121-1 = "Woah, woah, WOAH!!! Watch what you are doing with that thing! Why are you licking me anyway, I'm a tree, come on man."
+;Lord Garmborn Defeated
+NPC122Name = "Lord Garmborn"
+NPC122Pages = "1"
+NPC122-1 = "Defeated by a mere spherifaceous...Perhaps I should stick to constructing evil puzzles."
+
+;Cornwallis
+NPC130Name = "Cornwallis"
+NPC130Pages = "1"
+NPC130-1 = "Hey, you're walking on my oasis! This was a special gift from Lord Fenwar himself; I can't let anyone sully it!"
+;Cornwallis battle chat 1
+NPC131Name = "Cornwallis"
+NPC131Pages = "1"
+NPC131-1 = "Gwaarrrrgh that fire breath is making me piping mad! I'll make you pay!"
+;Cornwallis battle chat 2
+NPC132Name = "Cornwallis"
+NPC132Pages = "2"
+NPC132-1 = "Whew, sorry I got so mad but I just can't stand fire!"
+NPC132-2 = "Regardless, you are my adversary. Therefore I suppose I must destroy you. Feel the wrath of my cactlets!"
+;Cornwallis battle chat 3
+NPC133Name = "Cornwallis"
+NPC133Pages = "3"
+NPC133-1 = "Alright already! You can have the gosh darn oasis! Fenwar isn't going to be pleased about this..."
+NPC133-2 = "You see, I am unable to water myself as I am a cactus. I hang around Fenwar because only he has the resources to water a cactus as grand as myself."
+NPC133-3 = "To be honest, I don't even like him! No hard feelings young spherifaceous, perhaps we shall meet again..."
+
+;Mushboom
+NPC140Name = "Brian Fungus"
+NPC140Pages = "2"
+NPC140-1 = "I, Brian Fungus."
+NPC140-2 = "You, pulverized!"
+NPC141Name = "Brian Fungus"
+NPC141Pages = "3"
+NPC141-1 = "You, Smiley."
+NPC141-2 = "You, very strong."
+NPC141-3 = "I, defeated."
+
+;Calypso
+NPC150Name = "Calypso"
+NPC150Pages = "5"
+NPC150-1 = "Why hello there!  The name's Calypso.  I'm an evil floating wizard."
+NPC150-2 = "I'm actually not really that evil personally, but I have to follow my orders to perform evil deeds."
+NPC150-3 = "In fact, out of all of Fenwar's evil minions, I donate the largest portion of my salary to charity."
+NPC150-4 = "Where do I donate the most?  Why, to the Organ Harvest From The Poor Foundation!  We've saved so many people with actual lives worth living!"
+NPC150-5 = "Now, let's proceed with the donations, you pathetic fool!"
+
+NPC151Name = "Calypso"
+NPC151Pages = "4"
+NPC151-1 = "Oh dear, I've been defeated."
+NPC151-2 = "Little Jonny needs a liver, but now will never get one."
+NPC151-3 = "I am grateful to not have to live the rest of my life with the guilt you must have!"
+NPC151-4 = "Anyways, I must now fade away into nothingness.  May little Jonny haunt you for eternity after his imminent impending death!"
+
+;Phyrebawz Round 2
+NPC160Name = "Lord Phyrebawz"
+NPC160Pages = "5"
+NPC160-1 = "You again! Dickens, dickens, dickens."
+NPC160-2 = "I was hoping it was another customer to check out the sandals of Jesus.  It's been a slow day."
+NPC160-3 = "But of course, it's Mr. Lick-a-lot here to try to tongue torture me to death.  I mean seriously, isn't that pretty gross?"
+NPC160-4 = "Anyways, I will not just give you these sandals.  They are making me too much money."
+NPC160-5 = "You are welcome to take them if you survive what's next..."
+
+NPC161Name = "Lord Phyrebawz"
+NPC161Pages = "1"
+NPC161-1 = "I see you have gotten stronger since our last battle Smiley. Unfortunately for you, I remembered my vitamins this morning!"
+NPC162Name = "Lord Phyrebawz"
+NPC162Pages = "3"
+NPC162-1 = "Gwwaaarrghhh (Dickens)."
+NPC162-2 = "At least after this defeat I'm not covered in slobber. Well done."
+NPC162-3 = "I'm sure we will meet again, down below. 'Til then..."
+
+
+;Bartli
+NPC170Name = "Bartli"
+NPC170Pages = "1"
+NPC170-1 = "Let's participate in a yuge battle! Be afraid, Smiley, as I have consumed larger tubs of lard than you."
+NPC171Name = "Bartli"
+NPC171Pages = "2"
+NPC171-1 = "Whew ... I shouldn't have ... eaten so much ... candy. I need ... a moment ... to rest."
+NPC171-2 = "Please don't attack me though because I am quite vulnerable at the moment and that wouldn't be fair!"
+NPC172Name = "Bartli"
+NPC172Pages = "3"
+NPC172-1 = "Oh my, goodness gracious me, what have you done to me!? I no longer possess my earth shattering girth!"
+NPC172-2 = "I will now stay here with my bartlets and consume vast and shockingly diverse quantities of food."
+NPC172-3 = "Please. Leave me with my dignity."
+
+;King Tut
+NPC180Name = "King Tut"
+NPC180Pages = "4"
+NPC180-1 = "So I see you have come much further than anticipated."
+NPC180-2 = "Unfortunately, worthy adversary, your adventure and fun must end here."
+NPC180-3 = "I'd continue to trash talk you, but it seems kind of hollow..."
+NPC180-4 = "...considering the save point that is located right outside my lair grants you infinite tries until I am defeated."
+NPC181Name = "King Tut"
+NPC181Pages = "9"
+NPC181-1 = "As expected, you have defeated me. That nearby lollipop assured no other outcome."
+NPC181-2 = "I still have one last weapon, however."
+NPC181-3 = "I can continue talking much longer than is possible for someone who has just been slain."
+NPC181-4 = "By doing so, I will annoy you into pressing the Action button repeatedly."
+NPC181-5 = "This is the only satisfaction I can manage out of this miserable defeat."
+NPC181-6 = "I do applaud you though, Smiley. You were remarkable."
+NPC181-7 = "Especially remarkable if you defeated me on the first or second attempt."
+NPC181-8 = "Well, I'd best be moving on now to the after-afterlife."
+NPC181-9 = "I do hope my slaves remembered to paint food on the walls so I don't starve to death this time."
+
+;Lovecraft
+NPC190Name = "Magnitogorsk"
+NPC190Pages = "2"
+NPC190-1 = "L'pharhokrta dakelot-pholo uaa'mi krnae a'daehost motschor ratlaclihaz."
+NPC190-2 = "C'thoshazsi egu-listh ndhurlhug deph dharnaacho m'llegab!"
+NPC191Name = "Magnitogorsk"
+NPC191Pages = "2"
+NPC191-1 = "M'thormeh flokor-pho'o pe-ah may!"
+NPC191-2 = "(You may have injured me, but with my Eye closed I heal!)"
+NPC192Name = "Magnitogorsk"
+NPC192Pages = "1"
+NPC192-1 = "Melorakehlo dathath at'kianoilo sagngnast krnae gnthaosat :("
+
+;Fenwar
+NPC200Name = "Fenwar"
+NPC200Pages = "3"
+NPC200-1 = "Excellent job, Smiley. I'm afraid that even my most challenging puzzles and mightiest minions were no match for you."
+NPC200-2 = "The fact that I'm willing to praise you is a direct consequence of my absolute certainty that I will destroy you in a moment."
+NPC200-3 = "Prepare yourself.  This is going to hurt!"
+NPC201Name = "Fenwar"
+NPC201Pages = "1"
+NPC201-1 = "Ugh... I'm almost gone. This is the end... quite a disappointment."
+NPC202Name = "Fenwar"
+NPC202Pages = "5"
+NPC202-1 = "I have but one request of you, Smiley. Please let the people of this world to know my motive so that history may judge me justly."
+NPC202-2 = "I kidnapped your lover due to his recent findings proving that global cooling exists and truly threatens our planet."
+NPC202-3 = "Had these facts gone public, my multi-million dollar evil corporations would be taxed straight into bankruptcy."
+NPC202-4 = "I do not commit evil for the sake of commiting evil.  I am no such monster.  I just wanted an exorbitant amount of money."
+NPC202-5 = "*COUGH*  It's all getting dark now...go ahead Smiley...put me out of my misery."
+NPC203Name = "Fenwar"
+NPC203Pages = "2"
+NPC203-1 = "What's the matter, Smiley, are you afraid to come near me?"
+NPC203-2 = "I'll have you know, the orbs don't do nearly the damage as... well, I shalln't tell."
+
+;Barvinoid
+NPC210Name = "Barvinoid"
+NPC210Pages = "3"
+NPC210-1 = "Barvin-begone you barvin-bothersome weakling."
+NPC210-2 = "You surely are here to barvin-burgle my barvin-bush."
+NPC210-3 = "I will barvin-beat you now."
+NPC211Name = "Barvinoid"
+NPC211Pages = "3"
+NPC211-1 = "Oh, oh, oh! To touch and feel very good vegetables."
+NPC211-2 = "I can't believe you are using such cheap tactics! Turning my own minions' shots against me."
+NPC211-3 = "Winners never cheat, and cheaters never win!"
+NPC212Name = "Barvinoid"
+NPC212Pages = "2"
+NPC212-1 = "This is barvin-baffling.  How could I barvin-be defeated."
+NPC212-2 = "Barvin-barvin-barvin-barvvvv......"
+
+;==============================================FENWAR ENCOUNTERS=====================================
+NPC240Name = "Fenwar"
+NPC240Pages = "5"
+NPC240-1 = "Hello there, Smiley.  Just where do you think you're going?"
+NPC240-2 = "It would be wise of you to return to your silly little town and twiddle your non-existent thumbs in your criminally underfurnished house."
+NPC240-3 = "Your rug doesn't even match your linoleum tile!  Oh ho ho!"
+NPC240-4 = "I assure you a dire fate awaits you if you continue your journey."
+NPC240-5 = "But I must be going - I believe my water I set to boil is ready."
+
+NPC241Name = "Fenwar"
+NPC241Pages = "7"
+NPC241-1 = "Oh, hey Smiley."
+NPC241-2 = "I was just in the neighborhood so I figured I would come and verbally harass you."
+NPC241-3 = "Your dearest one is being held in my castle - aptly called the Castle of Evil."
+NPC241-4 = "Although you have temporarily subdued my top goon, Phyrebawz, don't let yourself get too cocky."
+NPC241-5 = "In his defense, he was quite hungover from last night's tupperware party."
+NPC241-6 = "Anyway, my legion of evil minions will surely destroy you at some point simply by probability."
+NPC241-7 = "Now I must go, otherwise I may miss Jeopardy."
+
+NPC242Name = "Fenwar"
+NPC242Pages = "6"
+NPC242-1 = "I'm quite impressed by your persistence."
+NPC242-2 = "I'm also quite impressed by your remarkable tongue.  I'm a bit jealous."
+NPC242-3 = "You see, I was born with quite a small tongue.  The pain this brought me as a child gave me no choice but to become evil."
+NPC242-4 = "People always told me that it would get bigger one day, but that day has yet to transpire."
+NPC242-5 = "I'm warning you - the more I see your tongue, the darker my savage jealousy becomes."
+NPC242-6 = "Oh dickens - I'm missing tea time.  Farewell!"
+
+NPC243Name = "Fenwar"
+NPC243Pages = "7"
+NPC243-1 = "Does this place not induce a considerable amount of despair?  I named it that myself."
+NPC243-2 = "It used to be nice town like yours."
+NPC243-3 = "But unfortunately, they had an economy based purely on consumption of super cheap products made by my evil slaves."
+NPC243-4 = "The town's inability to produce led to the collapse of their currency, and of course turned the town purple and created demons."
+NPC243-5 = "But let's not live in the past, Smiley.  For I have my eyes set on a possible annex in Smiley Town."
+NPC243-6 = "It will need a new name.  How about, Frowny Town?  Excellent!"
+NPC243-7 = "After my mighty wizard Calypso has his way with you, I'll initiate my plans for this evil addition to my empire!  HA!"
+
+NPC244Name = "Fenwar"
+NPC244Pages = "7"
+NPC244-1 = "I know you're wondering why I have kidnapped your soulmate.  Everything I do is for a reason."
+NPC244-2 = "My reason is simple: it's what is best for my business.  Surely you understand the cut-throat ways of capitalism."
+NPC244-3 = "I know your wooden toy business is suffering these days.  All kids want today are iPods and video games."
+NPC244-4 = "Didn't you ever just want to destroy all of these wretched electronics companies that are stealing you customers?"
+NPC244-5 = "If you ever decide to become evil and do exactly that, just let me know."
+NPC244-6 = "But, I have a feeling that this game isn't quite that open-ended so you are forced to be the protagonist."
+NPC244-7 = "Oh well.  Blame the lazy creators of this game  for your doom!  Mwahahaha!"
+
+NPC245Name = "Fenwar"
+NPC245Pages = "4"
+NPC245-1 = "Ahem."
+NPC245-2 = "Dear Smiley I don't mean to boast. \nBut your behind is going to roast."
+NPC245-3 = "Phyrebawz would like\n Your head on a pike\nAnd your soul on a plate with some toast."
+NPC245-4 = "Thank you."
+
+NPC246Name = "Fenwar"
+NPC246Pages = "7"
+NPC246-1 = "You are progressing quite well, Smiley."
+NPC246-2 = "It will be a shame to watch Bartli stomp you to pieces.  She is my pet yeti who lives at the zenith of Candy Mountain."
+NPC246-3 = "She actually used to be a middle school social studies teacher.  That is, until I noticed her uncanny ability to combat children with her girth."
+NPC246-4 = "So I slipped a magical cocktail of hormones into her baloney sandwich one day."
+NPC246-5 = "Soon, she was so beastly that her friends and family abandoned her.  She was easily coerced to my side with the few thousand tons of candy you see around you."
+NPC246-6 = "But anyways, her sweet tooth is wearing thin, and she more and more desires flesh."
+NPC246-7 = "Now begone, my delicious yeti-snack!  Haha!"
+
+NPC247Name = "Fenwar"
+NPC247Pages = "7"
+NPC247-1 = "The murky, muddy waters of this swamp make it ideal for dumping bodies."
+NPC247-2 = "Then my lovely tentacled friend Magnitogorsk typically consumes them with one of his seven mouths."
+NPC247-3 = "Then, there you have it.  No evidence!  You know my secret now."
+NPC247-4 = "Don't worry.  Your dearest one won't end up at the bottom of this lake."
+NPC247-5 = "For then this game couldn't possibly have a generic, happy ending when you reunite."
+NPC247-6 = "Magnitogorsk is in a temple at the lake's center.  You know the drill.  Destroy him and gain a new ability.  Rinse and repeat."
+NPC247-7 = "Speaking of which, my protruding vein near my eye needs a good rinsing.  Ciao!"
+
+NPC248Name = "Fenwar"
+NPC248Pages = "7"
+NPC248-1 = "I used to fancy traveling all over when I was younger."
+NPC248-2 = "But once I became evil, I started destroying everyone I came across on these trips."
+NPC248-3 = "Now, obviously I don't want everyone in the world gone, for then there would be no one to terrorize."
+NPC248-4 = "So, my solution to this problem is beneath your feet and right in front of your nose, er, mustache."
+NPC248-5 = "This path has 99%% accurate replicas of many of my favorite places in the world, complete with enemies to fight!"
+NPC248-6 = "To get to my castle at the end, you will need to be quite strong and well-equipped."
+NPC248-7 = "Now, I must go, and leave you to go become stronger and more well-equipped rather than just vanquishing you immediately myself."
+
+NPC249Name = "Fenwar"
+NPC249Pages = "7"
+NPC249-1 = "Welcome to my wondrous, evil conservatory, Smiley."
+NPC249-2 = "I know it seems quite absurd - a Castle of Evil with a giant conservatory adjoined to it."
+NPC249-3 = "But everyone has their guilty pleasures.  For example, your addiction to various inhalents."
+NPC249-4 = "Haha.  Just kidding.  That's me."
+NPC249-5 = "Anyways, my conservatory is filled with botonist robots I created which I call Botonoids."
+NPC249-6 = "These guys are as good at building gardens as they are at killing.  Such wonderful little devices they are!"
+NPC249-7 = "I hope you enjoy their company."
+
+NPC250Name = "Fenwar"
+NPC250Pages = "10"
+NPC250-1 = "Alright.  This is getting personal."
+NPC250-2 = "Yo step on anotha brotha's turf, yo be axin' fo trouble."
+NPC250-3 = "Erm... Pardon me!  That was my west-Philadelphian youth talking.  That only happens when I'm really ticked!"
+NPC250-4 = "Honestly, it feels inevitible at this point that you will make it to my chamber."
+NPC250-5 = "I'm warning you - I'm a very sore loser."
+NPC250-6 = "...I suppose that isn't much of a warning."
+NPC250-7 = "I realize that an insecure villain probably isn't as exciting to defeat.  I apologize."
+NPC250-8 = "I'm just being myself.  It's all I know how to be."
+NPC250-9 = "Let me tell you, sincerely, from the bottom of my heart:  I hope you die in my castle."
+NPC250-10 = "Now I'm going to go cry."
+
+;==============================================OTHER SHIT=====================================
+NPC900Name = "Monocle Man"
+NPC900Pages = "1"
+NPC900-1 = "Hey! You there! Press attack to go to the next page!"
+NPC901Name = "Monocle Man"
+NPC901Pages = "5"
+NPC901-1 = "Excuse me, I can't help but think that you are about to go on a great adventure."
+NPC901-2 = "I'm sure a brave adventurer such as yourself already knows to set his controls by pressing escape and going to the Controls menu, so I don't even need to tell you that."
+NPC901-3 = "Of course you also know that it's always a good idea to talk to everyone in town before heading out on a great adventure."
+NPC901-4 = "You look so prepared that you must also know that you can talk to people and read signs simply by licking them, which can be done by pressing the 'Attack' button."
+NPC901-5 = "Well, I'll be wandering around outside your house for the rest of the game in case you need any help. Don't worry, I have nothing better to do."
+NPC902Name = "Monocle Man"
+NPC902Pages = "1"
+NPC902-1 = "What kind of advice do you need?";
