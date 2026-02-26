@@ -45,7 +45,7 @@ void SMH::init()
 		log("-------------------------------------");
 
 		log("Creating ResourceManager");
-		resources = new hgeResourceManager("Data/ResourceScript");
+		resources = new hgeResourceManager("Data/Resources.r");
 		hge->Resource_AttachPack("Data/Sounds.zip");
 		hge->Resource_AttachPack("Data/Fonts.zip");
 		hge->Resource_AttachPack("Data/GameData.zip");

@@ -1,6 +1,6 @@
  SmileysMazeHunt3
 
- Timestamp is 6186ef8b (Sat Nov 06 17:11:39 2021)
+ Timestamp is 699fa70a (Wed Feb 25 20:51:06 2026)
 
  Preferred load address is 00400000
 
@@ -10,14 +10,14 @@
  0001:00098f45 00000044H .text$yc                CODE
  0001:00098f89 00000032H .text$yd                CODE
  0002:00000000 00000188H .idata$5                DATA
- 0002:00000190 00084794H .rdata                  DATA
- 0002:00084924 00000046H .rdata$debug            DATA
- 0002:0008496c 00006d88H .rdata$ilfixup          DATA
- 0002:0008b6f4 0000040cH .rdata$r                DATA
- 0002:0008bb00 00000004H .rtc$IAA                DATA
- 0002:0008bb04 00000004H .rtc$IZZ                DATA
- 0002:0008bb08 00000004H .rtc$TAA                DATA
- 0002:0008bb0c 00000004H .rtc$TZZ                DATA
+ 0002:00000190 00084790H .rdata                  DATA
+ 0002:00084920 00000045H .rdata$debug            DATA
+ 0002:00084968 00006d88H .rdata$ilfixup          DATA
+ 0002:0008b6f0 0000040cH .rdata$r                DATA
+ 0002:0008bafc 00000004H .rtc$IAA                DATA
+ 0002:0008bb00 00000004H .rtc$IZZ                DATA
+ 0002:0008bb04 00000004H .rtc$TAA                DATA
+ 0002:0008bb08 00000004H .rtc$TZZ                DATA
  0002:0008bb10 00000590H .xdata$x                DATA
  0002:0008c0a0 00000064H .idata$2                DATA
  0002:0008c104 00000014H .idata$3                DATA
@@ -47,9 +47,9 @@
 
   Address         Publics by Value              Rva+Base     Lib:Object
 
+ 0000:00000000       __except_list              00000000     <absolute>
  0000:00000000       ___safe_se_handler_table   00000000     <absolute>
  0000:00000000       ___safe_se_handler_count   00000000     <absolute>
- 0000:00000000       __except_list              00000000     <absolute>
  0001:00000000       ?assign@?$char_traits@D@std@@$$FSAXAADABD@Z 00401000 f i AreaChanger.obj
  0001:00000020       ?assign@?$char_traits@D@std@@SAXAADABD@Z 00401020 f i AreaChanger.obj
  0001:00000028       ?copy@?$char_traits@D@std@@$$FSAPADPADPBDI@Z 00401028 f i AreaChanger.obj
@@ -7109,8 +7109,8 @@
  0001:0008004f       ?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEHABV12@@Z 0048104f f i libcpmt:locale0.obj
  0001:00080073       ??1_Locimp@locale@std@@MAE@XZ 00481073 f   libcpmt:locale0.obj
  0001:000800fb       ??1_Locinfo@std@@QAE@XZ    004810fb f   libcpmt:locale0.obj
- 0001:00080152       ??_E_Locimp@locale@std@@MAEPAXI@Z 00481152 f i libcpmt:locale0.obj
  0001:00080152       ??_G_Locimp@locale@std@@MAEPAXI@Z 00481152 f i libcpmt:locale0.obj
+ 0001:00080152       ??_E_Locimp@locale@std@@MAEPAXI@Z 00481152 f i libcpmt:locale0.obj
  0001:0008016e       ?name@locale@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ 0048116e f i libcpmt:locale0.obj
  0001:0008018b       ??8locale@std@@QBE_NABV01@@Z 0048118b f   libcpmt:locale0.obj
  0001:00080260       ??0_Locimp@locale@std@@AAE@_N@Z 00481260 f   libcpmt:locale0.obj
@@ -7135,8 +7135,8 @@
  0001:00080672       ??_Gruntime_error@std@@UAEPAXI@Z 00481672 f i libcpmt:ios.obj
  0001:0008068e       ??0runtime_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 0048168e f i libcpmt:ios.obj
  0001:000806ca       ??0failure@ios_base@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 004816ca f i libcpmt:ios.obj
- 0001:000806e2       ??_Efailure@ios_base@std@@UAEPAXI@Z 004816e2 f i libcpmt:ios.obj
  0001:000806e2       ??_Gfailure@ios_base@std@@UAEPAXI@Z 004816e2 f i libcpmt:ios.obj
+ 0001:000806e2       ??_Efailure@ios_base@std@@UAEPAXI@Z 004816e2 f i libcpmt:ios.obj
  0001:000806fe       ??1failure@ios_base@std@@UAE@XZ 004816fe f i libcpmt:ios.obj
  0001:00080709       ?clear@ios_base@std@@QAEXH_N@Z 00481709 f   libcpmt:ios.obj
  0001:000807cf       ??0runtime_error@std@@QAE@ABV01@@Z 004817cf f i libcpmt:ios.obj
@@ -7202,11 +7202,11 @@
  0001:00081149       ??_Ebad_cast@@UAEPAXI@Z    00482149 f i LIBCMT:stdexcpt.obj
  0001:00081165       ??_Gbad_typeid@@UAEPAXI@Z  00482165 f i LIBCMT:stdexcpt.obj
  0001:00081165       ??_Ebad_typeid@@UAEPAXI@Z  00482165 f i LIBCMT:stdexcpt.obj
- 0001:00081181       ??_E__non_rtti_object@@UAEPAXI@Z 00482181 f i LIBCMT:stdexcpt.obj
  0001:00081181       ??_G__non_rtti_object@@UAEPAXI@Z 00482181 f i LIBCMT:stdexcpt.obj
+ 0001:00081181       ??_E__non_rtti_object@@UAEPAXI@Z 00482181 f i LIBCMT:stdexcpt.obj
  0001:0008119d       ??1type_info@@UAE@XZ       0048219d f   LIBCMT:typinfo.obj
- 0001:000811e3       ??_Gtype_info@@UAEPAXI@Z   004821e3 f i LIBCMT:typinfo.obj
  0001:000811e3       ??_Etype_info@@UAEPAXI@Z   004821e3 f i LIBCMT:typinfo.obj
+ 0001:000811e3       ??_Gtype_info@@UAEPAXI@Z   004821e3 f i LIBCMT:typinfo.obj
  0001:000811ff       ??8type_info@@QBEHABV0@@Z  004821ff f   LIBCMT:typinfo.obj
  0001:0008121a       ??9type_info@@QBEHABV0@@Z  0048221a f   LIBCMT:typinfo.obj
  0001:00081236       ?before@type_info@@QBEHABV1@@Z 00482236 f   LIBCMT:typinfo.obj
@@ -7341,8 +7341,8 @@
  0001:00084d57       __heap_init                00485d57 f   LIBCMT:heapinit.obj
  0001:00084da8       __heap_term                00485da8 f   LIBCMT:heapinit.obj
  0001:00084e27       __get_heap_handle          00485e27 f   LIBCMT:heapinit.obj
- 0001:00084e30       __chkstk                   00485e30 f   LIBCMT:chkstk.obj
  0001:00084e30       __alloca_probe             00485e30     LIBCMT:chkstk.obj
+ 0001:00084e30       __chkstk                   00485e30 f   LIBCMT:chkstk.obj
  0001:00084e70       __trandisp1                00485e70 f   LIBCMT:87disp.obj
  0001:00084ed7       __trandisp2                00485ed7 f   LIBCMT:87disp.obj
  0001:00084f63       __rttospopde               00485f63     LIBCMT:87disp.obj
@@ -8331,7 +8331,7 @@
  0002:00001664       ??_C@_0BC@DPJNIHJA@Data?1GameData?4zip?$AA@ 0049b664     SMH.obj
  0002:00001678       ??_C@_0P@PHGDJJLF@Data?1Fonts?4zip?$AA@ 0049b678     SMH.obj
  0002:00001688       ??_C@_0BA@GCNHEEG@Data?1Sounds?4zip?$AA@ 0049b688     SMH.obj
- 0002:00001698       ??_C@_0BE@CNHBEIDJ@Data?1ResourceScript?$AA@ 0049b698     SMH.obj
+ 0002:00001698       ??_C@_0BB@PPEJDFOL@Data?1Resources?4r?$AA@ 0049b698     SMH.obj
  0002:000016ac       ??_C@_0BJ@FODHGLJE@Creating?5ResourceManager?$AA@ 0049b6ac     SMH.obj
  0002:000016c8       ??_C@_0CG@MEKCFIEC@?9?9?9Initializing?5Smiley?8s?5Maze?5Hu@ 0049b6c8     SMH.obj
  0002:000016f0       ??_C@_0CG@HMIINNMI@?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9@ 0049b6f0     SMH.obj
@@ -10070,67 +10070,67 @@
  0002:0000aa08       ___lookuptable             004a4a08     LIBCMT:output.obj
  0002:0000aa64       ??_C@_1O@CEDCILHN@?$AA?$CI?$AAn?$AAu?$AAl?$AAl?$AA?$CJ?$AA?$AA@ 004a4a64     LIBCMT:output.obj
  0002:0000aa74       ??_C@_06OJHGLDPL@?$CInull?$CJ?$AA@ 004a4a74     LIBCMT:output.obj
- 0002:0008b6f4       ??_R1A@?0A@A@facet@locale@std@@8 005256f4     libcpmt:locale0.obj
- 0002:0008b70c       ??_R2facet@locale@std@@8   0052570c     libcpmt:locale0.obj
- 0002:0008b714       ??_R3facet@locale@std@@8   00525714     libcpmt:locale0.obj
- 0002:0008b724       ??_R4facet@locale@std@@6B@ 00525724     libcpmt:locale0.obj
- 0002:0008b738       ??_R1A@?0A@A@_Locimp@locale@std@@8 00525738     libcpmt:locale0.obj
- 0002:0008b750       ??_R2_Locimp@locale@std@@8 00525750     libcpmt:locale0.obj
- 0002:0008b75c       ??_R3_Locimp@locale@std@@8 0052575c     libcpmt:locale0.obj
- 0002:0008b76c       ??_R4_Locimp@locale@std@@6B@ 0052576c     libcpmt:locale0.obj
- 0002:0008b780       ??_R13?0A@A@?$_Iosb@H@std@@8 00525780     libcpmt:ios.obj
- 0002:0008b798       ??_R1A@?0A@A@ios_base@std@@8 00525798     libcpmt:ios.obj
- 0002:0008b7b0       ??_R2ios_base@std@@8       005257b0     libcpmt:ios.obj
- 0002:0008b7bc       ??_R3ios_base@std@@8       005257bc     libcpmt:ios.obj
- 0002:0008b7cc       ??_R4ios_base@std@@6B@     005257cc     libcpmt:ios.obj
- 0002:0008b7e0       ??_R1A@?0A@A@exception@@8  005257e0     libcpmt:ios.obj
- 0002:0008b7f8       ??_R1A@?0A@A@runtime_error@std@@8 005257f8     libcpmt:ios.obj
- 0002:0008b810       ??_R2runtime_error@std@@8  00525810     libcpmt:ios.obj
- 0002:0008b81c       ??_R3runtime_error@std@@8  0052581c     libcpmt:ios.obj
- 0002:0008b82c       ??_R4runtime_error@std@@6B@ 0052582c     libcpmt:ios.obj
- 0002:0008b840       ??_R1A@?0A@A@failure@ios_base@std@@8 00525840     libcpmt:ios.obj
- 0002:0008b858       ??_R2failure@ios_base@std@@8 00525858     libcpmt:ios.obj
- 0002:0008b868       ??_R3failure@ios_base@std@@8 00525868     libcpmt:ios.obj
- 0002:0008b878       ??_R4failure@ios_base@std@@6B@ 00525878     libcpmt:ios.obj
- 0002:0008b88c       ??_R1A@?0A@A@logic_error@std@@8 0052588c     libcpmt:string.obj
- 0002:0008b8a4       ??_R2logic_error@std@@8    005258a4     libcpmt:string.obj
- 0002:0008b8b0       ??_R3logic_error@std@@8    005258b0     libcpmt:string.obj
- 0002:0008b8c0       ??_R4logic_error@std@@6B@  005258c0     libcpmt:string.obj
- 0002:0008b8d4       ??_R1A@?0A@A@length_error@std@@8 005258d4     libcpmt:string.obj
- 0002:0008b8ec       ??_R2length_error@std@@8   005258ec     libcpmt:string.obj
- 0002:0008b8fc       ??_R3length_error@std@@8   005258fc     libcpmt:string.obj
- 0002:0008b90c       ??_R4length_error@std@@6B@ 0052590c     libcpmt:string.obj
- 0002:0008b920       ??_R1A@?0A@A@out_of_range@std@@8 00525920     libcpmt:string.obj
- 0002:0008b938       ??_R2out_of_range@std@@8   00525938     libcpmt:string.obj
- 0002:0008b948       ??_R3out_of_range@std@@8   00525948     libcpmt:string.obj
- 0002:0008b958       ??_R4out_of_range@std@@6B@ 00525958     libcpmt:string.obj
- 0002:0008b96c       ??_R1A@?0A@A@bad_alloc@std@@8 0052596c     libcpmt:nomemory.obj
- 0002:0008b984       ??_R2bad_alloc@std@@8      00525984     libcpmt:nomemory.obj
- 0002:0008b990       ??_R3bad_alloc@std@@8      00525990     libcpmt:nomemory.obj
- 0002:0008b9a0       ??_R4bad_alloc@std@@6B@    005259a0     libcpmt:nomemory.obj
- 0002:0008b9b4       ??_R2exception@@8          005259b4     LIBCMT:stdexcpt.obj
- 0002:0008b9bc       ??_R3exception@@8          005259bc     LIBCMT:stdexcpt.obj
- 0002:0008b9cc       ??_R4exception@@6B@        005259cc     LIBCMT:stdexcpt.obj
- 0002:0008b9e0       ??_R1A@?0A@A@bad_cast@@8   005259e0     LIBCMT:stdexcpt.obj
- 0002:0008b9f8       ??_R2bad_cast@@8           005259f8     LIBCMT:stdexcpt.obj
- 0002:0008ba04       ??_R3bad_cast@@8           00525a04     LIBCMT:stdexcpt.obj
- 0002:0008ba14       ??_R4bad_cast@@6B@         00525a14     LIBCMT:stdexcpt.obj
- 0002:0008ba28       ??_R1A@?0A@A@bad_typeid@@8 00525a28     LIBCMT:stdexcpt.obj
- 0002:0008ba40       ??_R2bad_typeid@@8         00525a40     LIBCMT:stdexcpt.obj
- 0002:0008ba4c       ??_R3bad_typeid@@8         00525a4c     LIBCMT:stdexcpt.obj
- 0002:0008ba5c       ??_R4bad_typeid@@6B@       00525a5c     LIBCMT:stdexcpt.obj
- 0002:0008ba70       ??_R1A@?0A@A@__non_rtti_object@@8 00525a70     LIBCMT:stdexcpt.obj
- 0002:0008ba88       ??_R2__non_rtti_object@@8  00525a88     LIBCMT:stdexcpt.obj
- 0002:0008ba98       ??_R3__non_rtti_object@@8  00525a98     LIBCMT:stdexcpt.obj
- 0002:0008baa8       ??_R4__non_rtti_object@@6B@ 00525aa8     LIBCMT:stdexcpt.obj
- 0002:0008babc       ??_R1A@?0A@A@type_info@@8  00525abc     LIBCMT:typinfo.obj
- 0002:0008bad4       ??_R2type_info@@8          00525ad4     LIBCMT:typinfo.obj
- 0002:0008badc       ??_R3type_info@@8          00525adc     LIBCMT:typinfo.obj
- 0002:0008baec       ??_R4type_info@@6B@        00525aec     LIBCMT:typinfo.obj
- 0002:0008bb00       ___rtc_iaa                 00525b00     LIBCMT:initsect.obj
- 0002:0008bb04       ___rtc_izz                 00525b04     LIBCMT:initsect.obj
- 0002:0008bb08       ___rtc_taa                 00525b08     LIBCMT:initsect.obj
- 0002:0008bb0c       ___rtc_tzz                 00525b0c     LIBCMT:initsect.obj
+ 0002:0008b6f0       ??_R1A@?0A@A@facet@locale@std@@8 005256f0     libcpmt:locale0.obj
+ 0002:0008b708       ??_R2facet@locale@std@@8   00525708     libcpmt:locale0.obj
+ 0002:0008b710       ??_R3facet@locale@std@@8   00525710     libcpmt:locale0.obj
+ 0002:0008b720       ??_R4facet@locale@std@@6B@ 00525720     libcpmt:locale0.obj
+ 0002:0008b734       ??_R1A@?0A@A@_Locimp@locale@std@@8 00525734     libcpmt:locale0.obj
+ 0002:0008b74c       ??_R2_Locimp@locale@std@@8 0052574c     libcpmt:locale0.obj
+ 0002:0008b758       ??_R3_Locimp@locale@std@@8 00525758     libcpmt:locale0.obj
+ 0002:0008b768       ??_R4_Locimp@locale@std@@6B@ 00525768     libcpmt:locale0.obj
+ 0002:0008b77c       ??_R13?0A@A@?$_Iosb@H@std@@8 0052577c     libcpmt:ios.obj
+ 0002:0008b794       ??_R1A@?0A@A@ios_base@std@@8 00525794     libcpmt:ios.obj
+ 0002:0008b7ac       ??_R2ios_base@std@@8       005257ac     libcpmt:ios.obj
+ 0002:0008b7b8       ??_R3ios_base@std@@8       005257b8     libcpmt:ios.obj
+ 0002:0008b7c8       ??_R4ios_base@std@@6B@     005257c8     libcpmt:ios.obj
+ 0002:0008b7dc       ??_R1A@?0A@A@exception@@8  005257dc     libcpmt:ios.obj
+ 0002:0008b7f4       ??_R1A@?0A@A@runtime_error@std@@8 005257f4     libcpmt:ios.obj
+ 0002:0008b80c       ??_R2runtime_error@std@@8  0052580c     libcpmt:ios.obj
+ 0002:0008b818       ??_R3runtime_error@std@@8  00525818     libcpmt:ios.obj
+ 0002:0008b828       ??_R4runtime_error@std@@6B@ 00525828     libcpmt:ios.obj
+ 0002:0008b83c       ??_R1A@?0A@A@failure@ios_base@std@@8 0052583c     libcpmt:ios.obj
+ 0002:0008b854       ??_R2failure@ios_base@std@@8 00525854     libcpmt:ios.obj
+ 0002:0008b864       ??_R3failure@ios_base@std@@8 00525864     libcpmt:ios.obj
+ 0002:0008b874       ??_R4failure@ios_base@std@@6B@ 00525874     libcpmt:ios.obj
+ 0002:0008b888       ??_R1A@?0A@A@logic_error@std@@8 00525888     libcpmt:string.obj
+ 0002:0008b8a0       ??_R2logic_error@std@@8    005258a0     libcpmt:string.obj
+ 0002:0008b8ac       ??_R3logic_error@std@@8    005258ac     libcpmt:string.obj
+ 0002:0008b8bc       ??_R4logic_error@std@@6B@  005258bc     libcpmt:string.obj
+ 0002:0008b8d0       ??_R1A@?0A@A@length_error@std@@8 005258d0     libcpmt:string.obj
+ 0002:0008b8e8       ??_R2length_error@std@@8   005258e8     libcpmt:string.obj
+ 0002:0008b8f8       ??_R3length_error@std@@8   005258f8     libcpmt:string.obj
+ 0002:0008b908       ??_R4length_error@std@@6B@ 00525908     libcpmt:string.obj
+ 0002:0008b91c       ??_R1A@?0A@A@out_of_range@std@@8 0052591c     libcpmt:string.obj
+ 0002:0008b934       ??_R2out_of_range@std@@8   00525934     libcpmt:string.obj
+ 0002:0008b944       ??_R3out_of_range@std@@8   00525944     libcpmt:string.obj
+ 0002:0008b954       ??_R4out_of_range@std@@6B@ 00525954     libcpmt:string.obj
+ 0002:0008b968       ??_R1A@?0A@A@bad_alloc@std@@8 00525968     libcpmt:nomemory.obj
+ 0002:0008b980       ??_R2bad_alloc@std@@8      00525980     libcpmt:nomemory.obj
+ 0002:0008b98c       ??_R3bad_alloc@std@@8      0052598c     libcpmt:nomemory.obj
+ 0002:0008b99c       ??_R4bad_alloc@std@@6B@    0052599c     libcpmt:nomemory.obj
+ 0002:0008b9b0       ??_R2exception@@8          005259b0     LIBCMT:stdexcpt.obj
+ 0002:0008b9b8       ??_R3exception@@8          005259b8     LIBCMT:stdexcpt.obj
+ 0002:0008b9c8       ??_R4exception@@6B@        005259c8     LIBCMT:stdexcpt.obj
+ 0002:0008b9dc       ??_R1A@?0A@A@bad_cast@@8   005259dc     LIBCMT:stdexcpt.obj
+ 0002:0008b9f4       ??_R2bad_cast@@8           005259f4     LIBCMT:stdexcpt.obj
+ 0002:0008ba00       ??_R3bad_cast@@8           00525a00     LIBCMT:stdexcpt.obj
+ 0002:0008ba10       ??_R4bad_cast@@6B@         00525a10     LIBCMT:stdexcpt.obj
+ 0002:0008ba24       ??_R1A@?0A@A@bad_typeid@@8 00525a24     LIBCMT:stdexcpt.obj
+ 0002:0008ba3c       ??_R2bad_typeid@@8         00525a3c     LIBCMT:stdexcpt.obj
+ 0002:0008ba48       ??_R3bad_typeid@@8         00525a48     LIBCMT:stdexcpt.obj
+ 0002:0008ba58       ??_R4bad_typeid@@6B@       00525a58     LIBCMT:stdexcpt.obj
+ 0002:0008ba6c       ??_R1A@?0A@A@__non_rtti_object@@8 00525a6c     LIBCMT:stdexcpt.obj
+ 0002:0008ba84       ??_R2__non_rtti_object@@8  00525a84     LIBCMT:stdexcpt.obj
+ 0002:0008ba94       ??_R3__non_rtti_object@@8  00525a94     LIBCMT:stdexcpt.obj
+ 0002:0008baa4       ??_R4__non_rtti_object@@6B@ 00525aa4     LIBCMT:stdexcpt.obj
+ 0002:0008bab8       ??_R1A@?0A@A@type_info@@8  00525ab8     LIBCMT:typinfo.obj
+ 0002:0008bad0       ??_R2type_info@@8          00525ad0     LIBCMT:typinfo.obj
+ 0002:0008bad8       ??_R3type_info@@8          00525ad8     LIBCMT:typinfo.obj
+ 0002:0008bae8       ??_R4type_info@@6B@        00525ae8     LIBCMT:typinfo.obj
+ 0002:0008bafc       ___rtc_iaa                 00525afc     LIBCMT:initsect.obj
+ 0002:0008bb00       ___rtc_izz                 00525b00     LIBCMT:initsect.obj
+ 0002:0008bb04       ___rtc_taa                 00525b04     LIBCMT:initsect.obj
+ 0002:0008bb08       ___rtc_tzz                 00525b08     LIBCMT:initsect.obj
  0002:0008bb10       __CT??_R0?AVexception@@@8??0exception@@$$FQAE@ABV0@@Z12 00525b10     BitStream.obj
  0002:0008bb2c       __CT??_R0?AVbad_cast@@@8??0bad_cast@@$$FQAE@ABV0@@Z12 00525b2c     BitStream.obj
  0002:0008bb48       __CTA2?AVbad_cast@@        00525b48     BitStream.obj
@@ -14045,8 +14045,8 @@
  0001:fffff061       $L76791                    00400061 f   TapestryManager.obj
  0001:fffff061       $L75829                    00400061 f   Input.obj
  0001:fffff061       $L75826                    00400061 f   Input.obj
- 0001:fffff061       $L83868                    00400061 f   SMH.obj
- 0001:fffff061       $L83871                    00400061 f   SMH.obj
+ 0001:fffff061       $L83867                    00400061 f   SMH.obj
+ 0001:fffff061       $L83870                    00400061 f   SMH.obj
  0001:fffff061       $L79753                    00400061 f   weaponparticle.obj
  0001:fffff061       $L79756                    00400061 f   weaponparticle.obj
  0001:fffff061       $L76945                    00400061 f   AdviceWindow.obj
@@ -14234,7 +14234,7 @@
  0001:fffff078       $L79033                    00400078 f   E_SadShooter.obj
  0001:fffff078       $L78982                    00400078 f   E_Charger.obj
  0001:fffff078       $L75312                    00400078 f   ScreenEffectsManager.obj
- 0001:fffff078       $L84078                    00400078 f   SMH.obj
+ 0001:fffff078       $L84077                    00400078 f   SMH.obj
  0001:fffff078       $L78502                    00400078 f   E_Ghost.obj
  0001:fffff078       $L77918                    00400078 f   SelectFileScreen.obj
  0001:fffff078       $L78945                    00400078 f   E_Gumdrop.obj
@@ -14438,9 +14438,9 @@
  0001:fffff095       $L78113                    00400095 f   DefaultEnemy.obj
  0001:fffff095       $L75727                    00400095 f   Slider.obj
  0001:fffff095       $L81173                    00400095 f   SnowBoss.obj
- 0001:fffff095       $L83881                    00400095 f   SMH.obj
- 0001:fffff095       $L78747                    00400095 f   E_Gumdrop.obj
  0001:fffff095       $L83880                    00400095 f   SMH.obj
+ 0001:fffff095       $L78747                    00400095 f   E_Gumdrop.obj
+ 0001:fffff095       $L83879                    00400095 f   SMH.obj
  0001:fffff095       $L89427                    00400095 f   fireboss2.obj
  0001:fffff095       $L75726                    00400095 f   Slider.obj
  0001:fffff095       $L78324                    00400095 f   E_Floater.obj
@@ -14603,7 +14603,7 @@
  0001:fffff0ac       $L79814                    004000ac f   SaveManager.obj
  0001:fffff0ac       $L78470                    004000ac f   E_Buzzard.obj
  0001:fffff0ac       $L75928                    004000ac f   Slider.obj
- 0001:fffff0ac       $L84082                    004000ac f   SMH.obj
+ 0001:fffff0ac       $L84081                    004000ac f   SMH.obj
  0001:fffff0ac       $L75316                    004000ac f   ScreenEffectsManager.obj
  0001:fffff0ac       $L79967                    004000ac f   weaponparticle.obj
  0001:fffff0ac       $L77404                    004000ac f   Worm1.obj
@@ -14790,8 +14790,8 @@
  0001:fffff0cd       $L81244                    004000cd f   DesertBoss.obj
  0001:fffff0cd       $L79618                    004000cd f   SaveManager.obj
  0001:fffff0cd       $L84500                    004000cd f   player.obj
- 0001:fffff0cd       $L83887                    004000cd f   SMH.obj
  0001:fffff0cd       $L83886                    004000cd f   SMH.obj
+ 0001:fffff0cd       $L83885                    004000cd f   SMH.obj
  0001:fffff0cd       $L78274                    004000cd f   E_Buzzard.obj
  0001:fffff0cd       $L78275                    004000cd f   E_Buzzard.obj
  0001:fffff0cd       $L79619                    004000cd f   SaveManager.obj
@@ -14862,7 +14862,7 @@
  0001:fffff0dc       $L78814                    004000dc f   E_Turret.obj
  0001:fffff0dc       $L78952                    004000dc f   E_Gumdrop.obj
  0001:fffff0dc       $L83912                    004000dc f   ConservatoryBoss.obj
- 0001:fffff0dc       $L84085                    004000dc f   SMH.obj
+ 0001:fffff0dc       $L84084                    004000dc f   SMH.obj
  0001:fffff0dc       $L78730                    004000dc f   FenwarManager.obj
  0001:fffff0dc       $L76321                    004000dc f   DifficultyPrompt.obj
  0001:fffff0dc       $L77683                    004000dc f   npc.obj
@@ -14990,7 +14990,7 @@
  0001:fffff0e6       $L78674                    004000e6 f   E_Ranged.obj
  0001:fffff0e6       $L84503                    004000e6 f   player.obj
  0001:fffff0e6       $L76966                    004000e6 f   AdviceWindow.obj
- 0001:fffff0e6       $L83889                    004000e6 f   SMH.obj
+ 0001:fffff0e6       $L83888                    004000e6 f   SMH.obj
  0001:fffff0e6       $L76755                    004000e6 f   ControlActionGroup.obj
  0001:fffff0e6       $L78695                    004000e6 f   E_EvilEye.obj
  0001:fffff0e6       $L78967                    004000e6 f   FenwarBombs.obj
@@ -15077,9 +15077,9 @@
  0001:fffff0f3       $L78379                    004000f3 f   E_Hopper.obj
  0001:fffff0f3       $L78968                    004000f3 f   FenwarBombs.obj
  0001:fffff0f3       $L78969                    004000f3 f   FenwarBombs.obj
- 0001:fffff0f3       $L83891                    004000f3 f   SMH.obj
- 0001:fffff0f3       $L79100                    004000f3 f   E_DiagoShooter.obj
  0001:fffff0f3       $L83890                    004000f3 f   SMH.obj
+ 0001:fffff0f3       $L79100                    004000f3 f   E_DiagoShooter.obj
+ 0001:fffff0f3       $L83889                    004000f3 f   SMH.obj
  0001:fffff0f3       $L76756                    004000f3 f   ControlActionGroup.obj
  0001:fffff0f3       $L76757                    004000f3 f   ControlActionGroup.obj
  0001:fffff0f3       $L78380                    004000f3 f   E_Hopper.obj
@@ -15258,7 +15258,7 @@
  0001:fffff102       $L78575                    00400102 f   E_Hopper.obj
  0001:fffff102       $L76328                    00400102 f   MainMenu.obj
  0001:fffff102       $L80385                    00400102 f   E_BatletDist.obj
- 0001:fffff102       $L84086                    00400102 f   SMH.obj
+ 0001:fffff102       $L84085                    00400102 f   SMH.obj
  0001:fffff102       $L78953                    00400102 f   E_Gumdrop.obj
  0001:fffff102       $L77163                    00400102 f   AdviceWindow.obj
  0001:fffff102       $L79493                    00400102 f   FenwarBullets.obj
@@ -15364,7 +15364,7 @@
  0001:fffff10c       $L79300                    0040010c f   FenwarBullets.obj
  0001:fffff10c       $L76797                    0040010c f   LoadingScreen.obj
  0001:fffff10c       $L78760                    0040010c f   E_Gumdrop.obj
- 0001:fffff10c       $L83893                    0040010c f   SMH.obj
+ 0001:fffff10c       $L83892                    0040010c f   SMH.obj
  0001:fffff10c       $L80192                    0040010c f   E_BatletDist.obj
  0001:fffff10c       $L79778                    0040010c f   weaponparticle.obj
  0001:fffff10c       $L77762                    0040010c f   EvilWallManager.obj
@@ -15494,9 +15494,9 @@
  0001:00009f8f       $L83839                    0040af8f f i GameData.obj
  0001:00009f9e       $L83924                    0040af9e f i GameData.obj
  0001:00009fa8       $L83841                    0040afa8 f i GameData.obj
- 0001:0000ffb7       $L83236                    00410fb7 f   SMH.obj
- 0001:0001096a       $L84097                    0041196a f   SMH.obj
- 0001:00010ee8       $L85338                    00411ee8 f   SMH.obj
+ 0001:0000ffb7       $L83235                    00410fb7 f   SMH.obj
+ 0001:0001096a       $L84096                    0041196a f   SMH.obj
+ 0001:00010ee8       $L85337                    00411ee8 f   SMH.obj
  0001:000117d2       $L77035                    004127d2 f i SoundManager.obj
  0001:000117d2       $L77032                    004127d2 f i SoundManager.obj
  0001:000117e9       $L77150                    004127e9 f i SoundManager.obj
@@ -21125,7 +21125,7 @@ Line numbers for .\Release\SMH.obj(c:\program files (x86)\microsoft visual studi
    442 0001:00010448   443 0001:00010461   484 0001:00010478   485 0001:000104a1
    494 0001:000104b8   454 0001:000104d8
 
-Line numbers for .\Release\SMH.obj(c:\source\smileysmazehunt3\src\smh.cpp) segment .text
+Line numbers for .\Release\SMH.obj(c:\source\smileysmazehunt\src\smh.cpp) segment .text
 
    323 0001:0000f4c8   324 0001:0000f4dd   325 0001:0000f4e7   329 0001:0000f4f3
    330 0001:0000f4fc   333 0001:0000f506   334 0001:0000f50c   337 0001:0000f516
@@ -21194,7 +21194,7 @@ Line numbers for .\Release\SMH.obj(c:\source\smileysmazehunt3\src\smh.cpp) segme
    287 0001:00010ed1   289 0001:00010ee8   291 0001:00010eea   292 0001:00010f01
    293 0001:00010f21   295 0001:00010f36   297 0001:00010f39   300 0001:00010f41
 
-Line numbers for .\Release\SMH.obj(c:\source\smileysmazehunt3\src\hgesprite.h) segment .text
+Line numbers for .\Release\SMH.obj(c:\source\smileysmazehunt\src\hgesprite.h) segment .text
 
     26 0001:0000f498
 
