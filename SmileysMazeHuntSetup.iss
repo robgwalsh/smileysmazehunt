@@ -66,7 +66,7 @@ Name: "{app}\Data\Save"
 [Icons]
 Name: "{group}\{#AppName}";                          Filename: "{app}\{#AppExe}"
 Name: "{group}\Uninstall {#AppName}";                Filename: "{uninstallexe}"
-Name: "{commondesktop}\{#AppName}";                  Filename: "{app}\{#AppExe}"; Tasks: desktopicon
+Name: "{userdesktop}\{#AppName}";                  Filename: "{app}\{#AppExe}"; Tasks: desktopicon
 
 [Run]
 Filename: "{app}\{#AppExe}"; Description: "Launch {#AppName}"; Flags: nowait postinstall skipifsilent
