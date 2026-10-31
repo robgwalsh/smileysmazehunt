@@ -1,2 +1,3 @@
 # smileysmazehunt
  
+www.smileysmazehunt.com
